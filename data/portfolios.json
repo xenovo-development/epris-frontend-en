@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/images/portfolio/1.jpg",
+        "title": "Digital marketing",
+        "category": "lorem"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/images/portfolio/2.jpg",
+        "title": "App Development",
+        "category": "ipsum"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/images/portfolio/3.jpg",
+        "title": "Graphics Design",
+        "category": "sit"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/images/portfolio/4.jpg",
+        "title": "Web Development",
+        "category": "amet"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/images/portfolio/5.jpg",
+        "title": "Construction Project",
+        "category": "lorem"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/images/portfolio/portfolio-1.jpg",
+        "title": "Illustration Design",
+        "category": "ipsum"
+    }
+]
