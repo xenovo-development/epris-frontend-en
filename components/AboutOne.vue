@@ -55,7 +55,7 @@
             <NuxtLink
               to="/about"
               class="btn btn-primary btn-hover-secondary mt-4"
-              >Über uns</NuxtLink
+              >Über Epris</NuxtLink
             >
           </div>
         </div>
