@@ -3,7 +3,7 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <BreadcrumbOne activePageName="About Us" title="We are an agency located in New York" backgroundUrl= "/images/bg/breadcrumb-bg.jpg" />
+        <BreadcrumbOne activePageName="Über Epris" title="Energie: wirtschaftlich • effizient • nachhaltig" backgroundUrl= "/images/bg/breadcrumb-bg.jpg" />
         <AboutTwo class="section-padding-top about-section-padding-bottom-200" />
         <CallToActionVideo />
         <AboutFour />

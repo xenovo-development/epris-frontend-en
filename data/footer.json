@@ -2,27 +2,35 @@
     "footerAboutWidget": {
         "logoSrc": "/images/logo/beige-logo.png",
         "telephone": "0123456789",
-        "email": "demo@example.com",
+        "email": "info@epris.group",
         "fbUrl": "https://www.facebook.com/",
         "twitterUrl": "https://twitter.com/",
         "instagramUrl": "https://www.instagram.com/"
     },
-    "footerLinkTitleOne": "Services",
+    "footerLinkTitleOne": "Pages",
     "navListOne": [
         {
-            "navTitle": "Marketing",
+            "navTitle": "Startseite",
             "navUrl": "/" 
         },
         {
-            "navTitle": "SEO/SEM",
+            "navTitle": "Über Epris",
             "navUrl": "/" 
         },
         {
-            "navTitle": "Development",
+            "navTitle": "Leistungen",
             "navUrl": "/" 
         },
         {
-            "navTitle": "UX Design",
+            "navTitle": "Referenzen",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Fachwissen",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Kontakt",
             "navUrl": "/" 
         }
     ],

@@ -3,20 +3,19 @@
     <div class="container">
       <!-- Section Title Start -->
       <SectionTitle
-        title="Lorem ipsum dolor sit amet consectetur."
-        sub-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ipsum
-          voluptate, rem a harum blanditiis."
+        title="Wirtschaftliche und effiziente Lösungen für Energie und Nachhaltigkeit"
+        sub-title="Unsere vier spezialisierten Leistungsmodule bieten Ihnen maßgeschneiderte Konzepte und praxisorientierte Umsetzungen, die gezielt auf Ihre Energie- und Nachhaltigkeitsherausforderungen eingehen. Durch unsere Expertise maximieren Sie Ihre Effizienz und senken gleichzeitig Ihre Kosten."
         add-class-name="mb-60"
       />
       <!-- Section Title End -->
 
       <div
-        class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"
+        class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"
       >
         <div
           class="col mt-30"
           data-aos="fade-up"
-          v-for="(feature, index) in serviceData.slice(0, 3)"
+          v-for="(feature, index) in serviceData.slice(0, 4)"
           :key="index"
         >
           <div class="icon-box text-center" :class="addClassName">

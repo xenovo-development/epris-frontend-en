@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title: 'Epris - Energie: wirtschaftlich, effizient, nachhaltig',
+            title: 'Epris - Energie: wirtschaftlich • effizient • nachhaltig',
             meta: [
                 { name: 'description', content: 'Your website description' }
             ],

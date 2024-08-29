@@ -7,7 +7,7 @@
         <AboutOne />
         <FeatureOne :style="{backgroundColor: '#f8faff'}" />
         <!-- <SuccessStory /> -->
-        <PortfolioGallery />
+        <!-- <PortfolioGallery /> -->
         <BlogSectionOne />
         <Newsletter />
         <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" />

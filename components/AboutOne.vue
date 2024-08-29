@@ -3,10 +3,14 @@
     <div class="container">
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
-        <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2 class="title">
+          EPRIS – Ihr Experte für Energiemanagement und Nachhaltigkeit
+        </h2>
         <p class="sub-title">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ipsum
-          voluptate, rem a harum blanditiis.
+          EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und
+          nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der
+          Branche kombinieren wir Wirtschaftlichkeit, Effizienz und
+          Nachhaltigkeit.
         </p>
       </div>
 
@@ -40,17 +44,29 @@
           <div class="about-content-area about-one">
             <!-- Section Title Two Start -->
             <div class="section-title-two">
-              <span class="sub-title">Lorem ipsum dolor sit amet.</span>
-              <h3 class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h3>
+              <span class="sub-title">Energie: wirtschaftlich • effizient • nachhaltig</span>
+              <h3 class="title">Erfahrung und Kompetenz in einem Paket</h3>
             </div>
             <!-- Section Title Two End -->
 
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              consectetur veniam, ipsum ducimus sunt expedita eligendi id. Quasi
-              assumenda soluta laboriosam eum accusantium.
+              Als erfahrenes Unternehmen im Energiemanagement entwickeln wir
+              durchdachte Strategien, die Ihrem Unternehmen helfen,
+              Energieeffizienz zu steigern und nachhaltige Ziele zu erreichen.
+              Unser praxisorientierter Ansatz sichert Ihnen konkrete Erfolge und
+              langfristige Vorteile.
+            </p>
+            <p>
+              EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement
+              und nachhaltige Lösungen im DACH-Raum.
+            </p>
+            <p>
+              Mit langjähriger Erfahrung in Schlüsselpositionen der
+              Energiewirtschaft entwickeln wir maßgeschneiderte Strategien, die
+              Wirtschaftlichkeit, Effizienz und Nachhaltigkeit optimal vereinen.
+              Unser praxisorientierter Ansatz sichert messbare Erfolge für
+              mittelständische und große Unternehmen – von der Planung bis zur
+              Umsetzung.
             </p>
             <NuxtLink
               to="/about"

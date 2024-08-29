@@ -24,14 +24,10 @@
                       {{ banner.text }}
                     </p>
                   </div>
-                  <NuxtLink
-                    to="/about"
-                    class="btn btn-primary btn-hover-secondary"
+                  <NuxtLink to="/about" class="btn btn-green-beggie"
                     >Loslegen</NuxtLink
                   >
-                  <NuxtLink
-                    to="/about"
-                    class="btn btn-outline-white btn-hover-primary"
+                  <NuxtLink to="/about" class="btn btn-outline-beggie"
                     >Mehr erfahren</NuxtLink
                   >
                 </div>
@@ -43,10 +39,10 @@
       <!-- pagination class -->
       <div class="home-slider-prev swiper-button-prev main-slider-nav">
         <i class="fa fa-angle-left"></i>
-    </div>
-    <div class="home-slider-next swiper-button-next main-slider-nav">
+      </div>
+      <div class="home-slider-next swiper-button-next main-slider-nav">
         <i class="fa fa-angle-right"></i>
-    </div>
+      </div>
     </swiper>
   </div>
 </template>
@@ -82,32 +78,32 @@ export default {
       sliderData: [
         {
           id: 1,
-          heading: "Energie: wirtschaftlich, effizient, nachhaltig",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa beatae deserunt! Consequatur, pariatur assumenda!",
+          heading: "Energie: wirtschaftlich • effizient • nachhaltig",
+          text: "EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der Branche kombinieren wir Wirtschaftlichkeit, Effizienz und Nachhaltigkeit.",
           bgImgSrc: "/images/hero-image/1.png",
         },
         {
           id: 2,
           heading: "Von Kosten zur strategischen Stärke!",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa beatae deserunt! Consequatur, pariatur assumenda!",
+          text: "EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der Branche kombinieren wir Wirtschaftlichkeit, Effizienz und Nachhaltigkeit.",
           bgImgSrc: "/images/hero-image/2.png",
         },
         {
           id: 3,
-          heading: "Energie: wirtschaftlich, effizient, nachhaltig",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa beatae deserunt! Consequatur, pariatur assumenda!",
+          heading: "Energie: wirtschaftlich • effizient • nachhaltig",
+          text: "EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der Branche kombinieren wir Wirtschaftlichkeit, Effizienz und Nachhaltigkeit.",
           bgImgSrc: "/images/hero-image/3.png",
         },
         {
           id: 4,
           heading: "Von Kosten zur strategischen Stärke!",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa beatae deserunt! Consequatur, pariatur assumenda!",
+          text: "EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der Branche kombinieren wir Wirtschaftlichkeit, Effizienz und Nachhaltigkeit.",
           bgImgSrc: "/images/hero-image/4.png",
         },
         {
           id: 5,
-          heading: "Energie: wirtschaftlich, effizient, nachhaltig",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa beatae deserunt! Consequatur, pariatur assumenda!",
+          heading: "Energie: wirtschaftlich • effizient • nachhaltig",
+          text: "EPRIS ist Ihr erfahrener Partner für effizientes Energiemanagement und nachhaltige Lösungen im DACH-Raum. Mit über 20 Jahren Erfahrung in der Branche kombinieren wir Wirtschaftlichkeit, Effizienz und Nachhaltigkeit.",
           bgImgSrc: "/images/hero-image/5.png",
         },
       ],
@@ -115,3 +111,25 @@ export default {
   },
 };
 </script>
+<style scoped>
+.btn-outline-beggie {
+  color: #fff3df;
+  border-color: #fff3df;
+  background-color: transparent;
+}
+.btn-outline-beggie:hover {
+  color: #fff3df;
+  border-color: #1b9970;
+  background-color: #1b9970;
+}
+.btn-green-beggie {
+  color: #fff3df;
+  border-color: #1b9970;
+  background-color: #1b9970;
+}
+.btn-green-beggie:hover {
+  color: #fff3df;
+  border-color: #fff3df;
+  background-color: transparent;
+}
+</style>
