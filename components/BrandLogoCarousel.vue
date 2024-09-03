@@ -1,5 +1,5 @@
 <template>
-    <div class="brand-section section-padding">
+    <div class="brand-section section-padding mb-60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

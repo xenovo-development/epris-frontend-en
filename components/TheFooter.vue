@@ -48,7 +48,7 @@
                 <!-- Footer Widget End -->
 
                 <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 mt-30">
                     <div class="footer-widget">
                         <h4 class="footer-widget-title">{{ footerData.footerLinkTitleTwo }}</h4>
                         <div class="footer-widget-content">
@@ -61,22 +61,6 @@
                     </div>
                 </div>
                 <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleThree }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListThree" :key="index">
-                                    <NuxtLink :to="nav.navUrl">{{ nav.navTitle }}</NuxtLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
-
                 <!-- Footer Widget Start -->
                 <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
                     <div class="footer-widget">

@@ -15,7 +15,7 @@
             <div class="sidebar-widget-content">
                 <ul class="sidebar-widget-cate-list">
                     <li v-for="(category, i) in allCategories" :key="i">
-                        <NuxtLink :to="`/blog/categories/${category}`">
+                        <NuxtLink :to="`/fachwissen/categories/${category}`">
                             <span class="text">{{ category }}</span> <span class="count">{{ `${category.length}`.padStart(2, 0) }}</span>
                         </NuxtLink>
                     </li>
@@ -28,11 +28,11 @@
                 <ul class="sidebar-widget-list-post">
                     <li v-for="(blog, i) in blogData" :key="i">
                         <span class="cate">
-                            <NuxtLink :to="`/blog/categories/${cat}`" v-for="(cat, i) in blog.categories.slice(0, 1)" :key="i">
+                            <NuxtLink :to="`/fachwissen/categories/${cat}`" v-for="(cat, i) in blog.categories.slice(0, 1)" :key="i">
                                 {{ cat }}
                             </NuxtLink>
                         </span>
-                        <NuxtLink :to="`/blog/${blog.slug}`"> 
+                        <NuxtLink :to="`/fachwissen/${blog.slug}`"> 
                             {{ blog.title }}
                         </NuxtLink>
                     </li>
@@ -52,7 +52,7 @@
             <h3 class="sidebar-widget-title">Popular tags</h3>
             <div class="sidebar-widget-content">
                 <div class="tagcloud">
-                    <NuxtLink :to="`/blog/tags/${tag}`" v-for="(tag, i) in allTags" :key="i">
+                    <NuxtLink :to="`/fachwissen/tags/${tag}`" v-for="(tag, i) in allTags" :key="i">
                         {{ tag }}
                     </NuxtLink>
                 </div>

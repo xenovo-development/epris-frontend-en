@@ -6,19 +6,19 @@
           <NuxtLink to="/">Startseite</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about">Über Epris</NuxtLink>
+          <NuxtLink to="/uber-epris">Über Epris</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/service">Leistungen</NuxtLink>
+          <NuxtLink to="/leistungen">Leistungen</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/project">Referenzen</NuxtLink>
+          <NuxtLink to="/referenzen">Referenzen</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/blog/blog-classic">Fachwissen</NuxtLink>
+          <NuxtLink to="/fachwissen">Fachwissen</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/contact-us">Kontakt</NuxtLink>
+          <NuxtLink to="/kontakt">Kontakt</NuxtLink>
         </li>
       </ul>
     </nav>

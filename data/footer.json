@@ -7,7 +7,7 @@
         "twitterUrl": "https://twitter.com/",
         "instagramUrl": "https://www.instagram.com/"
     },
-    "footerLinkTitleOne": "Pages",
+    "footerLinkTitleOne": "Seiten",
     "navListOne": [
         {
             "navTitle": "Startseite",
@@ -15,64 +15,45 @@
         },
         {
             "navTitle": "Über Epris",
-            "navUrl": "/" 
+            "navUrl": "/uber-epris" 
         },
         {
             "navTitle": "Leistungen",
-            "navUrl": "/" 
+            "navUrl": "/leistungen" 
         },
         {
             "navTitle": "Referenzen",
-            "navUrl": "/" 
+            "navUrl": "/referenzen" 
         },
         {
             "navTitle": "Fachwissen",
-            "navUrl": "/" 
+            "navUrl": "/fachwissen" 
         },
         {
             "navTitle": "Kontakt",
-            "navUrl": "/" 
+            "navUrl": "/kontakt" 
         }
     ],
-    "footerLinkTitleTwo": "Products",
+    "footerLinkTitleTwo": "Leistungen",
     "navListTwo": [
         {
-            "navTitle": "Elementor Guru",
-            "navUrl": "/" 
+            "navTitle": "Strategisches Energieeffizienz Management",
+            "navUrl": "/leistungen/strategisches-energieeffizienz-management" 
         },
         {
-            "navTitle": "WooLentor Pro",
-            "navUrl": "/" 
+            "navTitle": "Energiebeschaffung",
+            "navUrl": "/leistungen/energiebeschaffung" 
         },
         {
-            "navTitle": "Plugins",
-            "navUrl": "/" 
+            "navTitle": "Energiedaten Optimierung",
+            "navUrl": "/leistungen/energiedaten-optimierung" 
         },
         {
-            "navTitle": "Page Builder",
-            "navUrl": "/" 
+            "navTitle": "Klimafahrplan",
+            "navUrl": "/leistungen/klimafahrplan" 
         }
     ],
-    "footerLinkTitleThree": "About",
-    "navListThree": [
-        {
-            "navTitle": "Features",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Our Partners",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Affiliate Program",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Pricing",
-            "navUrl": "/" 
-        }
-    ],
-    "footerLinkTitleFour": "Contact",
+    "footerLinkTitleFour": "Kontakt",
     "navListFour": [
         {
             "navTitle": "Support Ticket",
@@ -80,10 +61,6 @@
         },
         {
             "navTitle": "Help Desk",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Live Chat",
             "navUrl": "/" 
         },
         {

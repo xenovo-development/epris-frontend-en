@@ -69,7 +69,7 @@
               Umsetzung.
             </p>
             <NuxtLink
-              to="/about"
+              to="/uber-epris"
               class="btn btn-primary btn-hover-secondary mt-4"
               >Über Epris</NuxtLink
             >

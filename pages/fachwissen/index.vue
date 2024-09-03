@@ -3,7 +3,7 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <BreadcrumbOne activePageName="Blog Classic" title="Find all our latest news, insights, and events" backgroundUrl= "/images/bg/breadcrumb-bg-four.jpg" />
+        <BreadcrumbOne activePageName="Fachwissen" title="Fachwissen" backgroundUrl= "/images/bg/breadcrumb-bg-four.jpg" />
 
         <!-- Blog Section Start -->
         <div class="section-padding fix">
@@ -13,7 +13,7 @@
                         <div class="row row-cols-1 no-gutters">
                             <div class="blog-3 col" data-aos="fade-up" v-for="(blog, index) in blogData.slice(0, 3)" :key="index">
                                 <div class="thumbnail">
-                                    <NuxtLink :to="`/blog/${blog.slug}`" class="image">
+                                    <NuxtLink :to="`/fachwissen/${blog.slug}`" class="image">
                                         <img :src="blog.imgSrc" :alt="blog.title">
                                     </NuxtLink>
                                 </div>
@@ -33,14 +33,14 @@
                                         </li>
                                     </ul>
                                     <h3 class="title">
-                                        <NuxtLink :to="`/blog/${blog.slug}`">
+                                        <NuxtLink :to="`/fachwissen/${blog.slug}`">
                                             {{ blog.title }}
                                         </NuxtLink>
                                     </h3>
                                     <div class="desc mb-30">
                                         <p>We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.</p>
                                     </div>
-                                    <NuxtLink :to="`/blog/${blog.slug}`" class="btn btn-primary btn-hover-secondary">Read More</NuxtLink>
+                                    <NuxtLink :to="`/fachwissen/${blog.slug}`" class="btn btn-primary btn-hover-secondary">Read More</NuxtLink>
                                 </div>
                             </div>
                         </div>

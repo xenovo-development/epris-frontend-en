@@ -9,8 +9,8 @@
                             <div class="desc">
                                 <p>We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.</p>
                             </div>
-                            <NuxtLink to="/about" class="btn btn-primary btn-hover-secondary">Get Started</NuxtLink>
-                            <NuxtLink to="/about" class="btn btn-outline-white btn-hover-primary">Learn More</NuxtLink>
+                            <NuxtLink to="/uber-epris" class="btn btn-primary btn-hover-secondary">Get Started</NuxtLink>
+                            <NuxtLink to="/uber-epris" class="btn btn-outline-white btn-hover-primary">Learn More</NuxtLink>
                         </div>
                     </div>
                 </div>

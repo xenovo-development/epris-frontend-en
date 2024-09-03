@@ -8,7 +8,7 @@
             <div class="desc">
                 <p>{{ service.text }}</p>
             </div>
-            <NuxtLink :to="`/service/${service.slug}`" class="link">View Details</NuxtLink>
+            <NuxtLink :to="`/leistungen/${service.slug}`" class="link">View Details</NuxtLink>
         </div>
     </div>
 </template>

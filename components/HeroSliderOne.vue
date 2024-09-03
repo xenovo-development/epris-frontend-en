@@ -24,10 +24,10 @@
                       {{ banner.text }}
                     </p>
                   </div>
-                  <NuxtLink to="/about" class="btn btn-green-beggie"
+                  <NuxtLink to="/uber-epris" class="btn btn-green-beggie"
                     >Loslegen</NuxtLink
                   >
-                  <NuxtLink to="/about" class="btn btn-outline-beggie"
+                  <NuxtLink to="/uber-epris" class="btn btn-outline-beggie"
                     >Mehr erfahren</NuxtLink
                   >
                 </div>

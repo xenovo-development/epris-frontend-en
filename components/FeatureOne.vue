@@ -27,7 +27,7 @@
               <div class="desc">
                 <p>{{ feature.text }}</p>
               </div>
-              <NuxtLink :to="`/service/${feature.slug}`" class="link"
+              <NuxtLink :to="`/leistungen/${feature.slug}`" class="link"
                 >Details ansehen</NuxtLink
               >
             </div>

@@ -9,7 +9,7 @@
             <!-- Section Title End -->
 
             <!-- About Wrapper Start -->
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 icon-box-shape-animation mtn-30">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 icon-box-shape-animation mtn-30">
                 <div class="col mt-30" data-aos="fade-up" v-for="(service, index) in serviceData" :key="index">
                     <ServiceItem :service="service" addClassName="box-border" />
                 </div>

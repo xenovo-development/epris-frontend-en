@@ -10,7 +10,7 @@
         <!-- <PortfolioGallery /> -->
         <BlogSectionOne />
         <Newsletter />
-        <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" />
+        <!-- <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" /> -->
         <CallToActionOne />
         <TheFooter />
     </div>

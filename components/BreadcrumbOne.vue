@@ -9,7 +9,7 @@
             <div class="container">
                 <ul class="breadcrumb page-breadcrumb">
                     <li class="breadcrumb-item">
-                        <nuxt-link to="/">Home</nuxt-link>
+                        <nuxt-link to="/">Startseite</nuxt-link>
                     </li>
                     <li class="breadcrumb-item">
                         <span>{{ activePageName }}</span>
