@@ -56,7 +56,7 @@
         <div class="row mtn-30 mb-20 mt-1">
           <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
             <div class="about-funfact">
-              <div class="number"><span class="counter">1</span>.</div>
+              <!-- <div class="number"><span class="counter">1</span>.</div> -->
               <h6 class="text">Strategisches Energieeffizienz Management</h6>
               <p>
                 We help our clients increase profits by increasing their
@@ -66,7 +66,7 @@
           </div>
           <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
             <div class="about-funfact">
-              <div class="number"><span class="counter">2</span>.</div>
+              <!-- <div class="number"><span class="counter">2</span>.</div> -->
               <h6 class="text">Energiebeschaffung</h6>
               <p>
                 We help our clients increase profits by increasing their
@@ -76,7 +76,7 @@
           </div>
           <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
             <div class="about-funfact">
-              <div class="number"><span class="counter">3</span>.</div>
+              <!-- <div class="number"><span class="counter">3</span>.</div> -->
               <h6 class="text">Energiedaten Optimierung</h6>
               <p>
                 We help our clients increase profits by increasing their
@@ -86,7 +86,7 @@
           </div>
           <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
             <div class="about-funfact">
-              <div class="number"><span class="counter">4</span>.</div>
+              <!-- <div class="number"><span class="counter">4</span>.</div> -->
               <h6 class="text">Klimafahrplan</h6>
               <p>
                 We help our clients increase profits by increasing their

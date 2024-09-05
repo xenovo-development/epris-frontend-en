@@ -1,7 +1,7 @@
 <template>
   <div
     class="section-padding-top section-padding-bottom-180 overflow-hidden"
-    style="padding-bottom: 300px; padding-top: 150px"
+    style="padding-bottom: 300px; padding-top: 110px"
   >
     <div class="container">
       <div class="row">
@@ -13,23 +13,29 @@
           <div class="about-image-area">
             <div class="about-image">
               <img :src="content[currentIndex].image" alt="image" />
-              <!-- <div class="custom-object-1">
-                <img :src="content[currentIndex].logo" alt="image" />
-              </div> -->
+              <div class="custom-object-1">
+                <img src="/images/icon-animation/y-daire.png" alt="image" />
+              </div>
               <div class="custom-object-2">
                 <img :src="content[currentIndex].logo" alt="image" />
               </div>
-              <div class="slider-controls-left">
-                <i
-                  class="fa-solid fa-arrow-left"
-                  @click="slideContent('left')"
-                ></i>
+              <div
+                class="slider-controls-left"
+                :class="{ disabled: isFirstItem }"
+                @click="slideContent('left')"
+                @mouseover="isFirstItem ? null : (hoverLeft = true)"
+                @mouseleave="hoverLeft = false"
+              >
+                <img :src="leftArrowSrc" alt="Left arrow" />
               </div>
-              <div class="slider-controls-right">
-                <i
-                  class="fa-solid fa-arrow-right"
-                  @click="slideContent('right')"
-                ></i>
+              <div
+                class="slider-controls-right"
+                :class="{ disabled: isLastItem }"
+                @click="slideContent('right')"
+                @mouseover="isLastItem ? null : (hoverRight = true)"
+                @mouseleave="hoverRight = false"
+              >
+                <img :src="rightArrowSrc" alt="Right arrow" />
               </div>
             </div>
 
@@ -67,6 +73,8 @@ export default {
   data() {
     return {
       currentIndex: 0,
+      hoverLeft: false,
+      hoverRight: false,
       content: [
         {
           image: "/images/referenzen/martins.jpg",
@@ -81,9 +89,21 @@ export default {
             "Für Unternehmen, die nach einer Expertin suchen, die strategische Planung mit praktischer Umsetzung im Energiemanagement verbindet, ist Epris unter der Leitung von Sandra Prinz eine hervorragende Wahl. Ihre profunde Expertise in der Durchführung komplexer Energieprojekte macht sie zu einer wertvollen Partnerin für jedes Unternehmen, das seine Energieversorgung optimieren möchte.",
         },
         {
+          image: "https://dummyimage.com/500x640/fff/000.png",
+          logo: "https://dummyimage.com/150x66/000/fff.png",
+          subTitle: "Sample text One",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante.",
+          texttwo:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+          textthree:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+          textfour:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+        },
+        {
           image: "https://dummyimage.com/500x640/000/fff.png",
           logo: "https://dummyimage.com/150x66/ffffff/000000.png",
-          subTitle: "Lorem ipsum dolar",
+          subTitle: "Sample text Two",
           text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante.",
           texttwo:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
@@ -95,18 +115,43 @@ export default {
       ],
     };
   },
+  computed: {
+    isFirstItem() {
+      return this.currentIndex === 0;
+    },
+    isLastItem() {
+      return this.currentIndex === this.content.length - 1;
+    },
+    leftArrowSrc() {
+      if (this.isFirstItem) {
+        return "/images/icon-animation/grey-left.png";
+      } else if (this.hoverLeft) {
+        return "/images/icon-animation/green-left.png";
+      }
+      return "/images/icon-animation/green-left.png";
+    },
+    rightArrowSrc() {
+      if (this.isLastItem) {
+        return "/images/icon-animation/grey-right.png";
+      } else if (this.hoverRight) {
+        return "/images/icon-animation/green-right.png";
+      }
+      return "/images/icon-animation/green-right.png";
+    },
+  },
   methods: {
     slideContent(direction) {
-      if (direction === "left") {
+      if (direction === "left" && !this.isFirstItem) {
         this.currentIndex =
           (this.currentIndex - 1 + this.content.length) % this.content.length;
-      } else if (direction === "right") {
+      } else if (direction === "right" && !this.isLastItem) {
         this.currentIndex = (this.currentIndex + 1) % this.content.length;
       }
     },
   },
 };
 </script>
+
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
@@ -118,40 +163,48 @@ export default {
   margin-left: 50px;
   color: #162d2b;
 }
-.slider-controls-left {
-  font-size: 34px;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-left: 20px;
-  position: absolute;
-}
+
+.slider-controls-left,
 .slider-controls-right {
   font-size: 34px;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 80px;
   position: absolute;
+}
+
+.slider-controls-left {
+  margin-left: 20px;
+  width: 45px;
+}
+
+.slider-controls-right {
+  margin-left: 80px;
+  width: 45px;
+}
+.slider-controls-left img,
+.slider-controls-right img {
+  transition: width 0.3s, height 0.3s;
 }
 
 .about-image {
   position: relative;
   width: 500px;
 }
+.custom-object-1 {
+  position: absolute;
+  top: -30px;
+  right: -20px;
+}
 
-.custom-object-1,
+.custom-object-1 img {
+  width: 100px;
+}
 .custom-object-2 {
   position: absolute;
-}
-
-.custom-object-1 {
-  top: 20px;
-  left: 20px;
-}
-
-.custom-object-2 {
   bottom: 20px;
   right: 20px;
 }
+
 .custom-object-2 img {
   width: 150px;
 }

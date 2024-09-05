@@ -2,11 +2,11 @@
     <div class="section-padding-t90-b100 overflow-hidden" id="contact">
         <div class="container shape-animate">
             <!-- Section Title Start -->
-            <SectionTitle title="We are a full-service creative agency" sub-title="Our team of designers, developers and creatives are perfectionists who love what they do and love where they work" add-class-name="mb-30" />
+            <SectionTitle title="Lorem ipsum sit amet." sub-title="Lorem ipsum sit amet dolara lorem ipsum sit amet lorem ipsum." add-class-name="mb-30" />
             <!-- Section Title End -->
 
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
-                <div class="col mt-30" data-aos="fade-up">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
+                <!-- <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
                         <div class="icon">
                             <img class="svgInject" src="/images/svg/linea/linea-basic-map.svg" alt="Icon">
@@ -16,7 +16,7 @@
                             <span class="info-text"> 110 W 34th St, NYC. <br> 67 Madison Avenue.</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
