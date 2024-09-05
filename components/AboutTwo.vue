@@ -6,8 +6,7 @@
           <div class="about-content-area">
             <div class="section-title-two">
               <span class="sub-title"
-                >EPRIS – Ihr Experte für Energiemanagement und
-                Nachhaltigkeit</span
+                >EPRIS: Wirtschaftliche Effizienz durch integriertes Energiemanagement</span
               >
               <h3 class="title">Erfahrung und Kompetenz in einem Paket</h3>
               <p class="mt-30">
