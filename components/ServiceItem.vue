@@ -18,3 +18,8 @@
         props: ['service', 'addClassName']
     };
 </script>
+<style scoped>
+.icon img{
+  width: 140px;
+}
+</style>

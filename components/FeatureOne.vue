@@ -56,6 +56,9 @@ export default {
 </script>
 
 <style scoped>
+.icon img{
+  width: 140px;
+}
 .icon-box .desc,
 .icon-box .link {
   display: none;
