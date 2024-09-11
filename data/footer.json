@@ -1,71 +1,73 @@
 {
-    "footerAboutWidget": {
-        "logoSrc": "/images/logo/beige-logo.png",
-        "telephone": "0123456789",
-        "email": "info@epris.group",
-        "fbUrl": "https://www.facebook.com/",
-        "twitterUrl": "https://twitter.com/",
-        "instagramUrl": "https://www.instagram.com/"
+  "footerAboutWidget": {
+    "logoSrc": "/images/logo/beige-logo.png",
+    "telephone": "+43 676 53 48 113",
+    "email": "office@epris.group",
+    "linkedinUrl": "https://www.linkedin.com/in/sandra-prinz/"
+  },
+  "footerLinkTitleOne": "Seiten",
+  "navListOne": [
+    {
+      "navTitle": "Startseite",
+      "navUrl": "/"
     },
-    "footerLinkTitleOne": "Seiten",
-    "navListOne": [
-        {
-            "navTitle": "Startseite",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Über Epris",
-            "navUrl": "/uber-epris" 
-        },
-        {
-            "navTitle": "Leistungen",
-            "navUrl": "/leistungen" 
-        },
-        {
-            "navTitle": "Referenzen",
-            "navUrl": "/referenzen" 
-        },
-        {
-            "navTitle": "Fachwissen",
-            "navUrl": "/fachwissen" 
-        },
-        {
-            "navTitle": "Kontakt",
-            "navUrl": "/kontakt" 
-        }
-    ],
-    "footerLinkTitleTwo": "Leistungen",
-    "navListTwo": [
-        {
-            "navTitle": "Strategisches Energieeffizienz Management",
-            "navUrl": "/leistungen/strategisches-energieeffizienz-management" 
-        },
-        {
-            "navTitle": "Energiebeschaffung",
-            "navUrl": "/leistungen/energiebeschaffung" 
-        },
-        {
-            "navTitle": "Energiedaten Optimierung",
-            "navUrl": "/leistungen/energiedaten-optimierung" 
-        },
-        {
-            "navTitle": "Klimafahrplan",
-            "navUrl": "/leistungen/klimafahrplan" 
-        }
-    ],
-    "footerLinkTitleFour": "Kontakt",
-    "navListFour": [
-        {
-            "navTitle": "Support Ticket",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Help Desk",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "FAQs",
-            "navUrl": "/" 
-        }
-    ]
+    {
+      "navTitle": "Über Epris",
+      "navUrl": "/uber-epris"
+    },
+    {
+      "navTitle": "Leistungen",
+      "navUrl": "/leistungen"
+    },
+    {
+      "navTitle": "Referenzen",
+      "navUrl": "/referenzen"
+    },
+    {
+      "navTitle": "Fachwissen",
+      "navUrl": "/fachwissen"
+    },
+    {
+      "navTitle": "Kontakt",
+      "navUrl": "/kontakt"
+    }
+  ],
+  "footerLinkTitleTwo": "Leistungen",
+  "navListTwo": [
+    {
+      "navTitle": "Strategisches Energieeffizienz Management",
+      "navUrl": "/leistungen/strategisches-energieeffizienz-management"
+    },
+    {
+      "navTitle": "Energiebeschaffung",
+      "navUrl": "/leistungen/energiebeschaffung"
+    },
+    {
+      "navTitle": "Energiedaten Optimierung",
+      "navUrl": "/leistungen/energiedaten-optimierung"
+    },
+    {
+      "navTitle": "Klimafahrplan",
+      "navUrl": "/leistungen/klimafahrplan"
+    }
+  ],
+  "footerLinkTitleFour": "Rechtiliche Hinweise",
+  "navListFour": [
+    {
+      "navTitle": "Impressum",
+      "navUrl": "/impressum"
+    },
+    {
+      "navTitle": "Datenschutzerklärung",
+      "navUrl": "/"
+    },
+    {
+      "navTitle": "AGB",
+      "navUrl": "/"
+    },
+    {
+      "navTitle": "Kontakt",
+      "navUrl": "/kontakt"
+    }
+  ]
 }

@@ -15,6 +15,10 @@ input[type="tel"] {
     border-radius: 5px;
     outline: none;
     background-color: #F5F5F5;
+    &:focus {
+        border-color: $primary;
+        background-color: $white;
+    }
 }
 
 textarea{

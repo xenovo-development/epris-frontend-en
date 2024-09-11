@@ -11,7 +11,7 @@
         <BlogSectionOne />
         <Newsletter />
         <!-- <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" /> -->
-        <CallToActionOne />
+        <CallToActionOneHome />
         <TheFooter />
     </div>
 </template>
