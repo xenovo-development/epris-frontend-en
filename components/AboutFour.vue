@@ -89,28 +89,26 @@ export default {
             "Für Unternehmen, die nach einer Expertin suchen, die strategische Planung mit praktischer Umsetzung im Energiemanagement verbindet, ist Epris unter der Leitung von Sandra Prinz eine hervorragende Wahl. Ihre profunde Expertise in der Durchführung komplexer Energieprojekte macht sie zu einer wertvollen Partnerin für jedes Unternehmen, das seine Energieversorgung optimieren möchte.",
         },
         {
-          image: "https://dummyimage.com/500x640/fff/000.png",
-          logo: "https://dummyimage.com/150x66/000/fff.png",
-          subTitle: "Sample text One",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante.",
+          image: "/images/referenzen/therme2.jpg",
+          logo: "/images/referenzen/therme-logo.jpg",
+          subTitle:
+            "Referenz für Sandra Prinz, Geschäftsführerin von Epris GmbH",
+          text: "In unserem Projekt zur Energieversorgungsoptimierung der Therme Wien hat Frau Prinz von Epris GmbH Außerordentliches geleistet. Mit ihrem ganzheitlichen Ansatz im Energiemanagement analysierte sie unsere bestehenden Energiequellen - von der Photovoltaikanlage über Fernwärme bis hin zu den aktuellen Energielieferverträgen. Besonders beeindruckte uns ihre innovative Herangehensweise zur wirtschaftlichen Optimierung, bei der sie die Nutzung von Spotpreisen zur kurzfristigen Kostenreduktion in den Fokus rückte.",
           texttwo:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+            "Frau Prinz' profunde Kenntnis der Energiemarktdynamik und ihr Geschick, kosteneffiziente Strategien zu entwickeln, erwiesen sich als ungemein wertvoll für unser Unternehmen. Ihre Empfehlungen zur Vertragsoptimierung und Einführung flexibler Beschaffungsmodelle haben maßgeblich dazu beigetragen, unsere Energieversorgung effizienter und wirtschaftlicher zu gestalten.",
           textthree:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+            "Mit ihrer Unterstützung konnten wir richtungsweisende Entscheidungen treffen, die nicht nur unsere operativen Kosten senkten, sondern auch unsere Nachhaltigkeitsambitionen vorantrieben. Frau Prinz gelang es, komplexe energiewirtschaftliche Sachverhalte in greifbare, ökonomisch sinnvolle Konzepte zu übersetzen.",
           textfour:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+            "Für Unternehmen, die nach einer Kombination aus strategischer Vision und praxisnaher Umsetzungsstärke im integrierten Energiemanagement suchen, kann ich Epris und Sandra Prinz wärmstens empfehlen.",
         },
         {
           image: "https://dummyimage.com/500x640/000/fff.png",
           logo: "https://dummyimage.com/150x66/ffffff/000000.png",
           subTitle: "Sample text Two",
           text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante.",
-          texttwo:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
-          textthree:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
-          textfour:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet maximus nulla. Donec in justo sed leo aliquam consectetur ut sed metus. Cras posuere enim mauris, sed porta nunc pharetra et. Vivamus ut odio vel ipsum rutrum luctus in sed neque. Nunc at lobortis ipsum, non feugiat neque. Praesent velit ipsum, venenatis quis imperdiet id, auctor non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostr.",
+          texttwo: "",
+          textthree: "",
+          textfour: "",
         },
       ],
     };
