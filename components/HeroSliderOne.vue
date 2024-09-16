@@ -38,10 +38,10 @@
       </swiper-slide>
       <!-- pagination class -->
       <div class="home-slider-prev swiper-button-prev main-slider-nav">
-        <i class="fa fa-angle-left"></i>
+        <i class="fa fa-angle-left" style="color:#fff3df;"></i>
       </div>
       <div class="home-slider-next swiper-button-next main-slider-nav">
-        <i class="fa fa-angle-right"></i>
+        <i class="fa fa-angle-right" style="color:#fff3df;"></i>
       </div>
     </swiper>
   </div>

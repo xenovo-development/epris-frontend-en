@@ -13,7 +13,7 @@
         font-size: 16px;
         line-height: 1.5;
         display: flex;
-        color: $white;
+        color: #fff3df;
         &.breadcrumb-item {
             padding-left: 0;
             &.active {
@@ -28,7 +28,7 @@
                 font-size: 16px;
                 content: "\f105" !important;
                 font-family: $fontAwesome;
-                color: $white !important;
+                color: #fff3df !important;
                 margin-top: 2px;
                 padding-right: 0 !important;
             }
@@ -37,7 +37,7 @@
         & a {
             position: relative;
             display: block;
-            color: $white;
+            color: #fff3df;
 
             &::before {
                 position: absolute;

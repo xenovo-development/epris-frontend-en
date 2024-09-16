@@ -124,8 +124,8 @@
             vertical-align: middle;
         }
         &:hover {
-            color: $primary;
-            background: rgba(0,0,0,0.8);
+            color: #fff3df;
+            background: #162D2B;
         }
         // Responsive
         @media #{$desktop-device, $tablet-device, $large-mobile}{
