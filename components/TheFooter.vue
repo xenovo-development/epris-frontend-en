@@ -1,9 +1,7 @@
 <template>
   <div class="footer-section" :style="{ backgroundColor: '#162d2b' }">
     <div class="container">
-      <!-- Footer Top Widgets Start -->
       <div class="row section-padding pt-0 mtn-30">
-        <!-- Footer Widget Start -->
         <div class="col-md-4 col-sm-6 col-12 mt-30">
           <div class="footer-widget">
             <div class="footer-logo">
@@ -36,9 +34,6 @@
             </div>
           </div>
         </div>
-        <!-- Footer Widget End -->
-
-        <!-- Footer Widget Start -->
         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mt-30">
           <div class="footer-widget">
             <h4 class="footer-widget-title">
@@ -53,9 +48,6 @@
             </div>
           </div>
         </div>
-        <!-- Footer Widget End -->
-
-        <!-- Footer Widget Start -->
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 mt-30">
           <div class="footer-widget">
             <h4 class="footer-widget-title">
@@ -70,9 +62,6 @@
             </div>
           </div>
         </div>
-        <!-- Footer Widget End -->
-
-        <!-- Footer Widget Start -->
         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
           <div class="footer-widget">
             <h4 class="footer-widget-title">
@@ -92,24 +81,19 @@
             </div>
           </div>
         </div>
-        <!-- Footer Widget End -->
       </div>
-      <!-- Footer Top Widgets End -->
-
-      <!-- Footer Copyright Start -->
       <div class="row">
         <div class="col">
           <p class="copyright">&copy; {{ currentYear }} EPRIS.</p>
         </div>
       </div>
-      <!-- Footer Copyright End -->
     </div>
   </div>
 </template>
 
 <script>
-import { ref, onMounted } from "vue"; // Import ref and onMounted
-import footerData from "~/data/footer.json"; // Import the footer data
+import { ref, onMounted } from "vue";
+import footerData from "~/data/footer.json";
 
 export default {
   data() {
