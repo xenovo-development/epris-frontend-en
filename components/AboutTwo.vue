@@ -5,29 +5,22 @@
         <div class="col-lg-6" data-aos="fade-up">
           <div class="about-content-area">
             <div class="section-title-two">
-              <span class="sub-title"
-                >EPRIS: Wirtschaftliche Effizienz durch integriertes Energiemanagement</span
-              >
-              <h3 class="title">Erfahrung und Kompetenz in einem Paket</h3>
+              <span class="sub-title">Effizienz durch Praxis</span>
+              <h3 class="title">Erfahrung und Kompetenz als Paket</h3>
               <p class="mt-30">
-                EPRIS steht für tiefgehende, praxisorientierte Expertise im
-                Energiemanagement und in der Nachhaltigkeit. Mit über 20 Jahren
-                Erfahrung aus führenden Positionen der Energiewirtschaft und
-                direkter Kundenerfahrung bieten wir durchdachte Lösungen – von
+                EPRIS steht für praxisorientierte Expertise im Energiemanagement
+                und in der Nachhaltigkeit. Wir bieten durchdachte Lösungen – von
                 effizienter Energiebeschaffung über Verbrauchsanalysen bis zur
-                Integration Ihres Klimafahrplans in Ihre
-                ESG-Umweltberichterstattung. Wir kennen die Herausforderungen
-                aus eigener Erfahrung und liefern konkrete, operativ umsetzbare
-                Ansätze.
+                Integration Ihres Klimafahrplans in Ihre ESG-Berichterstattung.
+                Mit unserem integrativen Ansatz vernetzen wir Abteilungen wie
+                Einkauf, Technik und Nachhaltigkeit, um Synergien zu schaffen
+                und Managemententscheidungen zu optimieren.
               </p>
               <p class="mt-30">
-                Unser Ansatz richtet sich an Unternehmen mit hohem
-                Energieverbrauch im deutschsprachigen Raum. Wir kombinieren
-                strategische Weitsicht mit operativer Umsetzungsstärke und
-                stellen sicher, dass Energieprozesse sowohl wirtschaftlich
-                optimiert als auch nachhaltig gestaltet werden. Wir machen den
-                Unterschied, indem wir nicht nur beraten, sondern auch umsetzen
-                – mit einem festen Fokus auf Wirtschaftlichkeit und Effizienz.
+                Unser Fokus liegt auf Unternehmen mit hohem Energieverbrauch im
+                deutschsprachigen Raum. Wir kombinieren strategische Weitsicht
+                mit operativer Stärke und setzen nicht nur um, sondern beraten
+                auch – mit Fokus auf Wirtschaftlichkeit und Effizienz.
               </p>
               <p class="mt-30">
                 Unsere vier Leistungsmodule bieten ganzheitliche Lösungen für
@@ -53,45 +46,28 @@
             />
           </div>
         </div>
-        <div class="row mtn-30 mb-20 mt-1">
-          <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
-            <div class="about-funfact">
-              <!-- <div class="number"><span class="counter">1</span>.</div> -->
-              <h6 class="text">Strategisches Energieeffizienz Management</h6>
-              <p>
-                We help our clients increase profits by increasing their
-                visibility online.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
-            <div class="about-funfact">
-              <!-- <div class="number"><span class="counter">2</span>.</div> -->
-              <h6 class="text">Energiebeschaffung</h6>
-              <p>
-                We help our clients increase profits by increasing their
-                visibility online.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
-            <div class="about-funfact">
-              <!-- <div class="number"><span class="counter">3</span>.</div> -->
-              <h6 class="text">Energiedaten Optimierung</h6>
-              <p>
-                We help our clients increase profits by increasing their
-                visibility online.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 mt-30" data-aos="fade-up">
-            <div class="about-funfact">
-              <!-- <div class="number"><span class="counter">4</span>.</div> -->
-              <h6 class="text">Klimafahrplan</h6>
-              <p>
-                We help our clients increase profits by increasing their
-                visibility online.
-              </p>
+        <div
+          class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mt-30"
+        >
+          <div
+            class="col mt-30"
+            data-aos="fade-up"
+            v-for="(feature, index) in serviceData.slice(0, 4)"
+            :key="index"
+          >
+            <div class="icon-box text-center" :class="addClassName">
+              <div class="icon">
+                <img :src="feature.iconSrc" :alt="feature.title" />
+              </div>
+              <div class="content">
+                <h3 class="title">{{ feature.title }}</h3>
+                <div class="desc">
+                  <p>{{ feature.text }}</p>
+                </div>
+                <NuxtLink :to="`/leistungen/${feature.slug}`" class="link">
+                  Details ansehen
+                </NuxtLink>
+              </div>
             </div>
           </div>
         </div>
@@ -106,3 +82,39 @@
     </div>
   </div>
 </template>
+<script>
+import serviceData from "~/data/service.json";
+export default {
+  data() {
+    return {
+      serviceData,
+    };
+  },
+};
+</script>
+<style scoped>
+.icon img {
+  width: 100px;
+}
+.icon-box .desc,
+.icon-box .link {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.icon-box .title {
+  margin-bottom: 0;
+  transition: margin-bottom 0.9s ease-in-out;
+}
+
+.icon-box:hover .desc,
+.icon-box:hover .link {
+  display: block;
+  opacity: 1;
+}
+
+.icon-box:hover .title {
+  margin-bottom: 15px;
+}
+</style>

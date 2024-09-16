@@ -3,15 +3,13 @@
     <div class="container">
       <!-- Section Title Start -->
       <SectionTitle
-        title="Wirtschaftliche und effiziente Lösungen für Energie und Nachhaltigkeit"
-        sub-title="Unsere vier spezialisierten Leistungsmodule bieten Ihnen maßgeschneiderte Konzepte und praxisorientierte Umsetzungen, die gezielt auf Ihre Energie- und Nachhaltigkeitsherausforderungen eingehen. Durch unsere Expertise maximieren Sie Ihre Effizienz und senken gleichzeitig Ihre Kosten."
+        :title="'Wirtschaftliche und effiziente Lösungen für <br> Energie und Nachhaltigkeit'"
+        sub-title="Unsere vier Leistungsmodule bieten maßgeschneiderte Konzepte und praxisorientierte Lösungen für Ihre Energie- und Nachhaltigkeitsherausforderungen."
         add-class-name="mb-60"
       />
       <!-- Section Title End -->
 
-      <div
-        class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"
-      >
+      <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
         <div
           class="col mt-30"
           data-aos="fade-up"
@@ -27,9 +25,9 @@
               <div class="desc">
                 <p>{{ feature.text }}</p>
               </div>
-              <NuxtLink :to="`/leistungen/${feature.slug}`" class="link"
-                >Details ansehen</NuxtLink
-              >
+              <NuxtLink :to="`/leistungen/${feature.slug}`" class="link">
+                Details ansehen
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -56,8 +54,8 @@ export default {
 </script>
 
 <style scoped>
-.icon img{
-  width: 140px;
+.icon img {
+  width: 100px;
 }
 .icon-box .desc,
 .icon-box .link {

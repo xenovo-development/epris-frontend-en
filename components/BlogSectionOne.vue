@@ -3,9 +3,7 @@
     <div class="container">
       <!-- Section Title Start -->
       <SectionTitle
-        title="Lorem ipsum dolor sit amet consectetur."
-        sub-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ipsum
-              voluptate, rem a harum blanditiis."
+        title="Energie im Fokus: Wissen und Trends"
       />
       <!-- Section Title End -->
 

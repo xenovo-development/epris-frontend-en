@@ -4,14 +4,10 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title fz-32">
-          Wirtschaftliche und effiziente Lösungen für Energie und Nachhaltigkeit
+          Wirtschaftliche und effiziente Lösungen aus der Praxis 
         </h2>
         <p class="sub-title">
-          Unsere vier spezialisierten Leistungsmodule bieten Ihnen
-          maßgeschneiderte Konzepte und praxisorientierte Umsetzungen, die
-          gezielt auf Ihre Energie- und Nachhaltigkeitsherausforderungen
-          eingehen. Durch unsere Expertise maximieren Sie Ihre Effizienz und
-          senken gleichzeitig Ihre Kosten.
+          Unsere vier spezialisierten Leistungsmodule bieten maßgeschneiderte Konzepte und bewährte Lösungen für Ihre Energie- und Nachhaltigkeitsherausforderungen.
         </p>
       </div>
       <!-- Section Title End -->

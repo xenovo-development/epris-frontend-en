@@ -3,8 +3,8 @@
     <div class="container shape-animate">
       <!-- Section Title Start -->
       <SectionTitle
-        title="Integrierte Energieoptimierung: Kosten senken, Effizienz steigern, Nachhaltigkeit sichern"
-        sub-title="Kontaktieren Sie uns, um zu erfahren, wie Sie durch gezielte Strategien Ihre Energiekosten senken und die Effizienz Ihres Unternehmens steigern können. "
+        title="Synergien durch integriertes Energiemanagement"
+        sub-title="Erfahren Sie, wie gezielte Strategien Ihre Energiekosten senken und die Effizienz Ihres Unternehmens steigern können."
         add-class-name="mb-30"
       />
       <!-- Section Title End -->
@@ -29,12 +29,12 @@
             <div class="icon">
               <img
                 class="svgInject"
-                src="/images/svg/linea/linea-basic-message-txt.svg"
+                src="/images/icon/phone.png"
                 alt="Icon"
               />
             </div>
             <div class="info">
-              <h4 class="title">Direkter Kontakt – Praxiserprobte Lösungen</h4>
+              <h4 class="title">Rufen Sie uns gerne an:</h4>
               <span class="info-text"><a href="tel:+436765348113">+43 676 53 48 113</a></span>
             </div>
           </div>
@@ -45,12 +45,12 @@
             <div class="icon">
               <img
                 class="svgInject"
-                src="/images/svg/linea/linea-basic-mail-open-text.svg"
+                src="/images/icon/mail.png"
                 alt="Icon"
               />
             </div>
             <div class="info">
-              <h4 class="title">Schriftliche Anfrage – Maßgeschneiderte Lösungen</h4>
+              <h4 class="title">Ihre Nachricht einfach an:</h4>
               <span class="info-text">
                 <a href="mailto:office@epris.group ">office@epris.group </a>
               </span>

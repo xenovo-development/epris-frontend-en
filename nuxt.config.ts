@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
     "@/assets/scss/style.scss",
+    "@/assets/css/fontawesome.min.css",
     "@fortawesome/fontawesome-free/css/all.min.css",
   ],
   vite: {

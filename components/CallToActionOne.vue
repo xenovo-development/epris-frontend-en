@@ -29,7 +29,7 @@
             <div class="icon">
               <img
                 class="svgInject"
-                src="/images/svg/linea/linea-basic-message-txt.svg"
+                src="/images/icon/phone.png"
                 alt="Icon"
               />
             </div>
@@ -45,7 +45,7 @@
             <div class="icon">
               <img
                 class="svgInject"
-                src="/images/svg/linea/linea-basic-mail-open-text.svg"
+                src="/images/icon/mail.png"
                 alt="Icon"
               />
             </div>

@@ -4,13 +4,10 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title">
-          EPRIS: Wirtschaftliche Effizienz durch integriertes Energiemanagement
+          EPRIS: Wirtschaftliche Effizienz durch <br> integriertes Energiemanagement
         </h2>
         <p class="sub-title">
-          EPRIS ist Ihr erfahrener Partner für effektives Energiemanagement, das
-          Kosteneffizienz und Nachhaltigkeit in allen Unternehmensbereichen
-          vereint. Mit über 20 Jahren Branchenerfahrung optimieren wir sämtliche
-          energierelevante Prozesse Ihres Unternehmens:
+          EPRIS ist Ihr erfahrener Partner für Energiemanagement, das Kosteneffizienz und Nachhaltigkeit vereint. Mit über 20 Jahren Erfahrung optimieren wir alle energierelevanten Prozesse Ihres Unternehmens.
         </p>
       </div>
       <!-- Section Title End -->

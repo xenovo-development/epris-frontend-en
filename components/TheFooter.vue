@@ -25,7 +25,12 @@
                   :href="footerData.footerAboutWidget.linkedinUrl"
                   target="_blank"
                 >
-                  <i class="fab fa-linkedin"></i>
+                  <img
+                    class="svgInject"
+                    src="/images/icon/linkedin-2.png"
+                    alt="Icon"
+                    width="35"
+                  />
                 </a>
               </div>
             </div>
@@ -66,6 +71,7 @@
           </div>
         </div>
         <!-- Footer Widget End -->
+
         <!-- Footer Widget Start -->
         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
           <div class="footer-widget">
@@ -93,7 +99,7 @@
       <!-- Footer Copyright Start -->
       <div class="row">
         <div class="col">
-          <p class="copyright">&copy; 2024 EPRIS.</p>
+          <p class="copyright">&copy; {{ currentYear }} EPRIS.</p>
         </div>
       </div>
       <!-- Footer Copyright End -->
@@ -102,12 +108,14 @@
 </template>
 
 <script>
-import footerData from "~/data/footer.json";
+import { ref, onMounted } from "vue"; // Import ref and onMounted
+import footerData from "~/data/footer.json"; // Import the footer data
 
 export default {
   data() {
     return {
       footerData,
+      currentYear: ref(new Date().getFullYear()),
     };
   },
   methods: {
@@ -122,6 +130,9 @@ export default {
     isPdf(title) {
       return title === "AGB" || title === "Datenschutzerklärung";
     },
+  },
+  mounted() {
+    this.currentYear = new Date().getFullYear();
   },
 };
 </script>

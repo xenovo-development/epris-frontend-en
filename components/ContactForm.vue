@@ -9,14 +9,12 @@
           <!-- Section Title Start -->
           <div class="section-title text-center" data-aos="fade-up">
             <h2 class="title fz-32">
-              Ihre Anfrage - Integrierte Energieoptimierung für wirtschaftliche
-              Effizienz
+              Synergien durch integriertes Energiemanagement
             </h2>
             <p class="sub-title">
-              Nutzen Sie das Formular, um Ihre Anforderungen zu übermitteln. Wir
-              entwickeln praxisorientierte Strategien, die nach unseren
-              Prinzipien – wirtschaftlich, effizient, nachhaltig – auf Ihre
-              Bedürfnisse abgestimmt sind.
+              Teilen Sie uns Ihre Anforderungen mit. <br>
+              Gemeinsam entwickeln wir Strategien, <br>
+              die auf Ihre Bedürfnisse abgestimmt sind.
             </p>
           </div>
           <!-- Section Title End -->

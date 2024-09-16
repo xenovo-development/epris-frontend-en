@@ -18,9 +18,9 @@
                 <div
                   class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8"
                 >
-                  <h2 class="title">{{ banner.heading }}</h2>
+                  <h2 class="title" v-html="banner.heading"></h2>
                   <div class="desc">
-                    <p>
+                    <p class="mt-4">
                       {{ banner.text }}
                     </p>
                   </div>
@@ -78,28 +78,30 @@ export default {
       sliderData: [
         {
           id: 1,
-          heading: "Energie: wirtschaftlich • effizient • nachhaltig",
+          heading: "Energie: <br/>  wirtschaftlich • effizient • nachhaltig",
           text: "Unser umfassender Ansatz vereint Wirtschaftlichkeit, Effizienz und Nachhaltigkeit. Mit über 20 Jahren Erfahrung in der Energiewirtschaft entwickeln wir maßgeschneiderte Lösungen, die Ihr Unternehmen zukunftsfähig machen.",
           bgImgSrc: "/images/hero-image/1.png",
         },
         {
           id: 2,
-          heading: "Integriertes Energiemanagement: Kosten senken, Effizienz steigern! ",
-          text: "Durch die Vernetzung aller energierelevanten Unternehmensbereiche schaffen wir ein effektives Energiemanagement. Wir optimieren Ihre Prozesse abteilungsübergreifend und erzielen so nachhaltige Kosten Einsparungen und Effizienzsteigerungen.",
+          heading:
+            "Integriertes Energiemanagement: Kosten senken, Effizienz steigern! ",
+          text: "Durch die Vernetzung aller energierelevanten Unternehmensbereiche schaffen wir ein effektives Energiemanagement. Wir optimieren Ihre Prozesse abteilungsübergreifend und erzielen nachhaltige Kosteneinsparungen.",
           bgImgSrc: "/images/hero-image/3.png",
         },
         {
           id: 3,
-          heading: "Praxisorientierte Energieexpertise: Vom Konzept zur Umsetzung",
-          text: "Mit unserer langjährigen Erfahrung aus führenden Positionen der Energiewirtschaft begleiten wir Sie von der Strategieentwicklung bis zur praktischen Implementierung. Wir bieten Ihnen durchdachte, wirtschaftlich tragfähige Lösungen für alle Aspekte Ihres Energiemanagements.",
+          heading:
+            "Praxisorientierte Energieexpertise: Vom Konzept zur Umsetzung",
+          text: "Mit unserer langjährigen Erfahrung begleiten wir Sie von der Strategieentwicklung bis zur praktischen Implementierung. Wir bieten Ihnen durchdachte, wirtschaftlich tragfähige Lösungen für alle Aspekte Ihres Energiemanagements.",
           bgImgSrc: "/images/hero-image/4.png",
         },
         {
           id: 4,
-          heading: "Synergien durch integriertes Energiemanagement: Wirtschaftlichkeit und Klimaziele im Einklang",
+          heading: "Synergien durch <br/> integriertes Energiemanagement.",
           text: "Wir verbinden Einkauf, Technik und ESG-Reporting zu einem abgestimmten Energiekonzept. So nutzen Sie Synergien, steigern Ihre betriebliche Effizienz und erfüllen gleichzeitig Ihre Nachhaltigkeitsziele.",
           bgImgSrc: "/images/hero-image/2.png",
-        }
+        },
       ],
     };
   },

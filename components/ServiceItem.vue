@@ -19,7 +19,7 @@
     };
 </script>
 <style scoped>
-.icon img{
-  width: 140px;
-}
+.icon img {
+    width: 100px;
+  }
 </style>

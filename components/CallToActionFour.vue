@@ -11,23 +11,29 @@
           <h4 class="mb-4">Epris GmbH</h4>
           <div class="impressum-info">
             <p class="mt-4">
-              <i class="fa-solid fa-location-dot"></i> Leonhardgasse 11/R01 1030
-              Wien
+              <img class="svgInject" src="/images/icon/adres.png" alt="Icon" />
+              Leonhardgasse 11/R01 1030 Wien
             </p>
             <p>
-              <i class="fa-solid fa-envelope"></i>
+              <img class="svgInject" src="/images/icon/mail.png" alt="Icon" />
               <a href="mailto:office@epris.group">office@epris.group</a>
             </p>
             <p>
-              <i class="fa-solid fa-phone"></i>
+              <img class="svgInject" src="/images/icon/phone.png" alt="Icon" />
               <a href="tel:+436765348113">+43 676 53 48 113</a>
             </p>
             <p>
-              <i class="fa-solid fa-globe"></i
+              <img class="svgInject" src="/images/icon/web.png" alt="Icon" />
               ><a href="https://www.epris.group/">www.epris.group</a>
             </p>
-            <p><i class="fas fa-file-alt"></i> FN xxxxx, Handelsgericht Wien</p>
-            <p><i class="fas fa-file-alt"></i> UID: ATU xxxxxx</p>
+            <p>
+              <img class="svgInject" src="/images/icon/dosya.png" alt="Icon" />
+              FN xxxxx, Handelsgericht Wien
+            </p>
+            <p>
+              <img class="svgInject" src="/images/icon/dosya.png" alt="Icon" />
+              UID: ATU xxxxxx
+            </p>
             <p class="mt-5">
               Unternehmensberatung einschließlich der Unternehmensorganisation
               (§ 94 Z 74 GewO). Sitz: Wien
@@ -63,9 +69,9 @@ export default {
   font-size: 16px;
 }
 
-.impressum-info i {
+.impressum-info img {
   margin-right: 10px;
-  color: #333;
+  width: 20px;
 }
 .text-center {
   text-align: center;
