@@ -11,27 +11,57 @@
           <h4 class="mb-4">Epris GmbH</h4>
           <div class="impressum-info">
             <p class="mt-4">
-              <img class="svgInject" src="/images/icon/adres.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/location.png"
+                alt="Icon"
+                width="20"
+              />
               Leonhardgasse 11/R01 1030 Wien
             </p>
             <p>
-              <img class="svgInject" src="/images/icon/mail.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/mail.png"
+                alt="Icon"
+                width="20"
+              />
               <a href="mailto:office@epris.group">office@epris.group</a>
             </p>
             <p>
-              <img class="svgInject" src="/images/icon/phone.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/phone.png"
+                alt="Icon"
+                width="20"
+              />
               <a href="tel:+436765348113">+43 676 53 48 113</a>
             </p>
             <p>
-              <img class="svgInject" src="/images/icon/web.png" alt="Icon" />
-              ><a href="https://www.epris.group/">www.epris.group</a>
+              <img
+                class="svgInject"
+                src="/images/icon/web.png"
+                alt="Icon"
+                width="20"
+              />
+              <a href="https://www.epris.group/">www.epris.group</a>
             </p>
             <p>
-              <img class="svgInject" src="/images/icon/dosya.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/document.png"
+                alt="Icon"
+                width="15"
+              />
               FN xxxxx, Handelsgericht Wien
             </p>
             <p>
-              <img class="svgInject" src="/images/icon/dosya.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/document.png"
+                alt="Icon"
+                width="15"
+              />
               UID: ATU xxxxxx
             </p>
             <p class="mt-5">
@@ -71,7 +101,6 @@ export default {
 
 .impressum-info img {
   margin-right: 10px;
-  width: 20px;
 }
 .text-center {
   text-align: center;
