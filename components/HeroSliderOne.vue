@@ -38,10 +38,10 @@
       </swiper-slide>
       <!-- pagination class -->
       <div class="home-slider-prev swiper-button-prev main-slider-nav">
-        <i class="fa fa-angle-left" style="color:#fff3df;"></i>
+        <i class="fa fa-angle-left"></i>
       </div>
       <div class="home-slider-next swiper-button-next main-slider-nav">
-        <i class="fa fa-angle-right" style="color:#fff3df;"></i>
+        <i class="fa fa-angle-right"></i>
       </div>
     </swiper>
   </div>
@@ -108,6 +108,12 @@ export default {
 };
 </script>
 <style scoped>
+@media screen and (max-width: 1700px) {
+  .intro-content {
+    margin-left: 50px;
+  }
+}
+
 .btn-outline-beggie {
   color: #fff3df;
   border-color: #fff3df;

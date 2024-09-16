@@ -122,10 +122,11 @@
             font-size: 40px;
             line-height: 1;
             vertical-align: middle;
+            color: #FFF3DF;
         }
         &:hover {
-            color: #fff3df;
-            background: #162D2B;
+            color: $primary;
+            background: #162d2bea;
         }
         // Responsive
         @media #{$desktop-device, $tablet-device, $large-mobile}{
