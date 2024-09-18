@@ -70,12 +70,12 @@
             <div class="footer-widget-content">
               <ul>
                 <li v-for="(nav, index) in footerData.navListFour" :key="index">
-                  <a
-                    :href="getPdfLink(nav.navTitle, nav.navUrl)"
+                  <nuxt-link
+                    :to="getPdfLink(nav.navTitle, nav.navUrl)"
                     :target="isPdf(nav.navTitle) ? '_blank' : '_self'"
                   >
                     {{ nav.navTitle }}
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </div>

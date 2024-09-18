@@ -45,7 +45,7 @@
                             </div>
                             <!-- Header Login End -->
                         </div>
-                        <a href="#contact" class="btn btn-contact btn-hover-primary">Kontaktieren Sie uns</a>
+                        <nuxt-link to="/kontakt" class="btn btn-contact btn-hover-primary">Kontaktieren Sie uns</nuxt-link>
                     </div>
                     <!-- Header Right End -->
 

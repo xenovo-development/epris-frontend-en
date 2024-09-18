@@ -44,7 +44,7 @@
                 alt="Icon"
                 width="20"
               />
-              <a href="https://www.epris.group/">www.epris.group</a>
+              <nuxt-link to="/">www.epris.group</nuxt-link>
             </p>
             <p>
               <img
