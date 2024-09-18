@@ -4,9 +4,7 @@
         <OffCanvasMobileMenu />
         <SearchPopup />
         <BreadcrumbOne activePageName="Leistungen" title="Leistungen" backgroundUrl= "/images/bg/breadcrumb-bg-three.jpg" />
-        <ServiceWrapper />
-        <!-- <AboutFour /> -->
-        <!-- <FunfactWithTitle /> -->
+        <Service />
         <TheFooter />
     </div>
 </template>

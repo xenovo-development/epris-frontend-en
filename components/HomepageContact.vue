@@ -1,0 +1,72 @@
+<template>
+  <div class="section-padding-t90-b100 overflow-hidden" id="contact">
+    <div class="container shape-animate">
+      <!-- Section Title Start -->
+      <SectionTitle
+        title="Synergien durch integriertes Energiemanagement"
+        sub-title="Erfahren Sie, wie gezielte Strategien Ihre Energiekosten senken und die Effizienz Ihres Unternehmens steigern können."
+        add-class-name="mb-30"
+      />
+      <!-- Section Title End -->
+
+      <div
+        class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"
+      >
+        <div class="col mt-30" data-aos="fade-up">
+          <div class="contact-info">
+            <div class="icon">
+              <img
+                class="svgInject"
+                src="/images/icon/phone.png"
+                alt="Icon"
+              />
+            </div>
+            <div class="info">
+              <h4 class="title">Rufen Sie uns gerne an:</h4>
+              <span class="info-text"><a href="tel:+436765348113">+43 676 53 48 113</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mt-30" data-aos="fade-up">
+          <div class="contact-info">
+            <div class="icon">
+              <img
+                class="svgInject"
+                src="/images/icon/mail.png"
+                alt="Icon"
+              />
+            </div>
+            <div class="info">
+              <h4 class="title">Ihre Nachricht einfach an:</h4>
+              <span class="info-text">
+                <a href="mailto:office@epris.group ">office@epris.group </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <shape-with-animation
+        add-class-name="shape-1"
+        data-depth="4"
+        img-src="/images/shape-animation/video-shape-1.png"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  components: {
+    SectionTitle: () => import("@/components/SectionTitle"),
+    ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
+  },
+};
+</script>
+<style scoped>
+#contact{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+</style>

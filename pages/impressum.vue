@@ -12,8 +12,7 @@
         backgroundSize: 'cover',
       }"
     />
-    <CallToActionFour />
-
+    <Imprint />
     <TheFooter />
   </div>
 </template>

@@ -3,15 +3,12 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <HeroSliderOne />
-        <AboutOne />
-        <FeatureOne :style="{backgroundColor: '#f8faff'}" />
-        <!-- <SuccessStory /> -->
-        <!-- <PortfolioGallery /> -->
-        <BlogSectionOne />
-        <Newsletter />
-        <!-- <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" /> -->
-        <CallToActionOneHome />
+        <HomepageSlider />
+        <HomepageAbout />
+        <HomepageServices :style="{backgroundColor: '#f8faff'}" />
+        <HomepageBlog />
+        <HomepageSubscription />
+        <HomepageContact />
         <TheFooter />
     </div>
 </template>
