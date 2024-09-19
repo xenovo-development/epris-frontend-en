@@ -15,15 +15,13 @@
         <div class="col mt-30" data-aos="fade-up">
           <div class="contact-info">
             <div class="icon">
-              <img
-                class="svgInject"
-                src="/images/icon/phone.png"
-                alt="Icon"
-              />
+              <img class="svgInject" src="/images/icon/phone.png" alt="Icon" />
             </div>
             <div class="info">
-              <h4 class="title">Direkter Kontakt – Praxiserprobte Lösungen</h4>
-              <span class="info-text"><a href="tel:+436765348113">+43 676 53 48 113</a></span>
+              <h4 class="title">Rufen Sie uns gerne an:</h4>
+              <span class="info-text"
+                ><a href="tel:+436765348113">+43 676 53 48 113</a></span
+              >
             </div>
           </div>
         </div>
@@ -31,14 +29,10 @@
         <div class="col mt-30" data-aos="fade-up">
           <div class="contact-info">
             <div class="icon">
-              <img
-                class="svgInject"
-                src="/images/icon/mail.png"
-                alt="Icon"
-              />
+              <img class="svgInject" src="/images/icon/mail.png" alt="Icon" />
             </div>
             <div class="info">
-              <h4 class="title">Schriftliche Anfrage – Maßgeschneiderte Lösungen</h4>
+              <h4 class="title">Ihre Nachricht einfach an:</h4>
               <span class="info-text">
                 <a href="mailto:office@epris.group ">office@epris.group </a>
               </span>

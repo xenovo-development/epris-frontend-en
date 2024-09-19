@@ -76,7 +76,7 @@
         </div>
         <!-- Blog Section End -->
 
-        <CallToActionTwo />
+        <HomepageSubscription />
         <TheFooter />
     </div>
 </template>

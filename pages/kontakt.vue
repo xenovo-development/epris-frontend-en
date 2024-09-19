@@ -7,7 +7,10 @@
       activePageName="Kontakt"
       title="Kontakt"
       backgroundUrl="/images/bg/f.jpg"
-    
+      :style="{
+        backgroundPosition: 'center calc(5% - 120px)',
+        backgroundSize: 'cover',
+      }"
     />
     <Contact />
     <ContactForm />

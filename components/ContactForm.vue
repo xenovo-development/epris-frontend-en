@@ -9,7 +9,7 @@
           <!-- Section Title Start -->
           <div class="section-title text-center" data-aos="fade-up">
             <h2 class="title fz-32">
-              Synergien durch integriertes Energiemanagement
+              Nutzen Sie unser Kontaktformular
             </h2>
             <p class="sub-title">
               Teilen Sie uns Ihre Anforderungen mit. <br>

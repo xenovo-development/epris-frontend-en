@@ -17,7 +17,7 @@
             <!-- Newsletter Form Start -->
             <div class="newsletter-form">
               <form>
-                <input type="email" placeholder="Ente your email" name="mail" />
+                <input type="email" placeholder="Ihre Emailadresse" name="mail" />
                 <button class="btn btn-primary btn-hover-secondary">
                     Abonnieren
                 </button>
