@@ -22,17 +22,17 @@
             }
         }
 
-        & + li {
-            &::before {
-                margin: 0 15px;
-                font-size: 16px;
-                content: "\f105" !important;
-                font-family: $fontAwesome;
-                color: #fff3df !important;
-                margin-top: 2px;
-                padding-right: 0 !important;
-            }
-        }
+        // & + li {
+        //     &::before {
+        //         margin: 0 15px;
+        //         font-size: 16px;
+        //         content: "\f105" !important;
+        //         font-family: $fontAwesome;
+        //         color: #fff3df !important;
+        //         margin-top: 2px;
+        //         padding-right: 0 !important;
+        //     }
+        // }
 
         & a {
             position: relative;
