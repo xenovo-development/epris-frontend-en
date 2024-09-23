@@ -53,7 +53,7 @@
                 alt="Icon"
                 width="15"
               />
-              FN xxxxx, Handelsgericht Wien
+              FN 634540y, Handelsgericht Wien
             </p>
             <p>
               <img
