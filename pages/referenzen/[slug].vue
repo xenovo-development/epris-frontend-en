@@ -16,19 +16,19 @@
           <div class="col-lg-4 mtn-40 order-2 order-lg-1">
             <div class="service-details-widget">
               <div
-              class="service-single-widget mt-40"
-              :style="{ backgroundColor: '#f8faff' }"
-            >
-              <h4 class="service-widget-title">Leistungen</h4>
-              <ul class="service-list">
-                <li v-for="(service, index) in serviceData" :key="index">
-                  <i class="fas fa-check-circle"></i>
-                  <a :href="'/leistungen/' + service.slug">{{
-                    service.title
-                  }}</a>
-                </li>
-              </ul>
-            </div>
+                class="service-single-widget mt-40"
+                :style="{ backgroundColor: '#f8faff' }"
+              >
+                <h4 class="service-widget-title">Leistungen</h4>
+                <ul class="service-list">
+                  <li v-for="(service, index) in serviceData" :key="index">
+                    <i class="fas fa-check-circle"></i>
+                    <a :href="'/leistungen/' + service.slug">{{
+                      service.title
+                    }}</a>
+                  </li>
+                </ul>
+              </div>
               <!-- <div
                 class="service-single-widget mt-40"
                 :style="{ backgroundColor: '#f8faff' }"
@@ -45,7 +45,11 @@
           <div class="col-lg-8 order-1 order-lg-2">
             <div class="service-details">
               <div class="service-details-thumb">
-                <img :src="service.imgSrc" :alt="service.title" />
+                <img
+                  :src="service.imgSrc"
+                  :alt="service.title"
+                  loading="lazy"
+                />
               </div>
               <h3 class="mt-4 mb-3">{{ service.title }}</h3>
               <p>{{ service.textOne }}</p>

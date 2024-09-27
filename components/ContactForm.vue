@@ -8,12 +8,10 @@
         <div class="offset-lg-2 col-lg-8">
           <!-- Section Title Start -->
           <div class="section-title text-center" data-aos="fade-up">
-            <h2 class="title fz-32">
-              Nutzen Sie unser Kontaktformular
-            </h2>
+            <h2 class="title fz-32">Nutzen Sie unser Kontaktformular</h2>
             <p class="sub-title">
-              Teilen Sie uns Ihre Anforderungen mit. <br>
-              Gemeinsam entwickeln wir Strategien, <br>
+              Teilen Sie uns Ihre Anforderungen mit. <br />
+              Gemeinsam entwickeln wir Strategien, <br />
               die auf Ihre Bedürfnisse abgestimmt sind.
             </p>
           </div>

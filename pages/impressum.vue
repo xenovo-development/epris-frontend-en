@@ -4,13 +4,9 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Impressum"
-      title="Impressum"
-      backgroundUrl="/images/bg/f.jpg"
-      :style="{
-        backgroundPosition: 'center calc(5% - 50px)',
-        backgroundSize: 'cover',
-      }"
+      activePageName="Kontakt"
+      title="Kontakt"
+      backgroundUrl="/images/bg/e.jpg"
     />
     <Imprint />
     <TheFooter />

@@ -4,10 +4,14 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title">
-          EPRIS: Wirtschaftliche Effizienz durch <br> integriertes Energiemanagement
+          EPRIS: Wirtschaftliche Effizienz durch <br />
+          integriertes Energiemanagement
         </h2>
         <p class="sub-title">
-          EPRIS ist Ihr erfahrener Partner für Energiemanagement, das Kosteneffizienz und Nachhaltigkeit vereint. Mit über 20 Jahren Erfahrung optimieren wir alle energierelevanten Prozesse Ihres Unternehmens.
+          EPRIS ist Ihr erfahrener Partner für Energiemanagement, das
+          Kosteneffizienz und Nachhaltigkeit vereint. Mit über 20 Jahren
+          Erfahrung optimieren wir alle energierelevanten Prozesse Ihres
+          Unternehmens.
         </p>
       </div>
       <!-- Section Title End -->
@@ -18,10 +22,18 @@
         <div class="col-xl-7 col-lg-6" data-aos="fade-up">
           <div class="about-image-area">
             <div class="about-image js-tilt">
-              <img src="/images/about/agency_about_2.png" alt="images" />
+              <img
+                src="/images/about/agency_about_2.png"
+                alt="about images"
+                loading="lazy"
+              />
             </div>
             <div class="about-image js-tilt">
-              <img src="/images/about/agency_about_1.jpg" alt="images" />
+              <img
+                src="/images/about/agency_about_1.jpg"
+                alt="about images"
+                loading="lazy"
+              />
             </div>
 
             <!-- Animation Shape Start -->
@@ -79,7 +91,7 @@
             <NuxtLink
               to="/uber-epris"
               class="btn btn-primary btn-hover-secondary mt-4"
-              >Über Epris</NuxtLink
+              >Über EPRIS</NuxtLink
             >
           </div>
         </div>

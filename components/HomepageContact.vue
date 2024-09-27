@@ -18,12 +18,15 @@
               <img
                 class="svgInject"
                 src="/images/icon/phone.png"
-                alt="Icon"
+                alt="Phone Icon"
+                loading="lazy"
               />
             </div>
             <div class="info">
               <h4 class="title">Rufen Sie uns gerne an:</h4>
-              <span class="info-text"><a href="tel:+436765348113">+43 676 53 48 113</a></span>
+              <span class="info-text"
+                ><a href="tel:+436765348113">+43 676 53 48 113</a></span
+              >
             </div>
           </div>
         </div>
@@ -34,7 +37,8 @@
               <img
                 class="svgInject"
                 src="/images/icon/mail.png"
-                alt="Icon"
+                alt="Mail Icon"
+                loading="lazy"
               />
             </div>
             <div class="info">
@@ -65,7 +69,7 @@ export default {
 };
 </script>
 <style scoped>
-#contact{
+#contact {
   margin-top: 100px;
   margin-bottom: 100px;
 }

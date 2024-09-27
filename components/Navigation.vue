@@ -5,7 +5,7 @@
         <NuxtLink to="/">Startseite</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/uber-epris">Über Epris</NuxtLink>
+        <NuxtLink to="/uber-epris">Über EPRIS</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/leistungen">Leistungen</NuxtLink>
@@ -13,9 +13,9 @@
       <li>
         <NuxtLink to="/referenzen">Referenzen</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/fachwissen">Fachwissen</NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/kontakt">Kontakt</NuxtLink>
       </li>

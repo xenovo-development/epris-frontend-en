@@ -2,9 +2,7 @@
   <div class="section-padding-t90-b100">
     <div class="container">
       <!-- Section Title Start -->
-      <SectionTitle
-        title="Energie im Fokus: Wissen und Trends"
-      />
+      <SectionTitle title="Energie im Fokus: Wissen und Trends" />
       <!-- Section Title End -->
 
       <div

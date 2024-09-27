@@ -15,7 +15,12 @@
         <div class="col mt-30" data-aos="fade-up">
           <div class="contact-info">
             <div class="icon">
-              <img class="svgInject" src="/images/icon/phone.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/phone.png"
+                alt="Phone Icon"
+                loading="lazy"
+              />
             </div>
             <div class="info">
               <h4 class="title">Rufen Sie uns gerne an:</h4>
@@ -29,7 +34,12 @@
         <div class="col mt-30" data-aos="fade-up">
           <div class="contact-info">
             <div class="icon">
-              <img class="svgInject" src="/images/icon/mail.png" alt="Icon" />
+              <img
+                class="svgInject"
+                src="/images/icon/mail.png"
+                alt="Mail Icon"
+                loading="lazy"
+              />
             </div>
             <div class="info">
               <h4 class="title">Ihre Nachricht einfach an:</h4>

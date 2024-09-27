@@ -9,7 +9,9 @@
       />
       <!-- Section Title End -->
 
-      <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
+      <div
+        class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"
+      >
         <div
           class="col mt-30"
           data-aos="fade-up"
@@ -18,7 +20,7 @@
         >
           <div class="icon-box text-center" :class="addClassName">
             <div class="icon">
-              <img :src="feature.iconSrc" :alt="feature.title" />
+              <img :src="feature.iconSrc" :alt="feature.title" loading="lazy" />
             </div>
             <div class="content">
               <h3 class="title">{{ feature.title }}</h3>

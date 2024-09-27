@@ -34,10 +34,18 @@
             class="about-image-area about-two about-shape-animation right-0 mr-0"
           >
             <div class="about-image js-tilt">
-              <img src="/images/about/agency_about_2.png" alt="image" />
+              <img
+                src="/images/about/agency_about_2.png"
+                alt="about image"
+                loading="lazy"
+              />
             </div>
             <div class="about-image js-tilt">
-              <img src="/images/about/agency_about_1.jpg" alt="image" />
+              <img
+                src="/images/about/agency_about_1.jpg"
+                alt="about image"
+                loading="lazy"
+              />
             </div>
             <ShapeWithAnimation
               addClassName="shape-1"
@@ -57,7 +65,11 @@
           >
             <div class="icon-box text-center" :class="addClassName">
               <div class="icon">
-                <img :src="feature.iconSrc" :alt="feature.title" />
+                <img
+                  :src="feature.iconSrc"
+                  :alt="feature.title"
+                  loading="lazy"
+                />
               </div>
               <div class="content">
                 <h3 class="title">{{ feature.title }}</h3>

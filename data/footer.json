@@ -3,7 +3,7 @@
     "logoSrc": "/images/logo/beige-logo.png",
     "telephone": "+43 676 53 48 113",
     "email": "office@epris.group",
-    "linkedinUrl": "https://www.linkedin.com/in/sandra-prinz/"
+    "linkedinUrl": "https://www.linkedin.com/company/epris-group"
   },
   "footerLinkTitleOne": "Seiten",
   "navListOne": [
@@ -12,7 +12,7 @@
       "navUrl": "/"
     },
     {
-      "navTitle": "Über Epris",
+      "navTitle": "Über EPRIS",
       "navUrl": "/uber-epris"
     },
     {
@@ -22,10 +22,6 @@
     {
       "navTitle": "Referenzen",
       "navUrl": "/referenzen"
-    },
-    {
-      "navTitle": "Fachwissen",
-      "navUrl": "/fachwissen"
     },
     {
       "navTitle": "Kontakt",

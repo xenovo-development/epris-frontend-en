@@ -70,7 +70,7 @@ export default {
           prevEl: ".swiper-button-prev",
         },
         autoplay: {
-          delay: 6000,
+          delay: 9000,
           disableOnInteraction: false,
         },
       },

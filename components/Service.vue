@@ -4,10 +4,12 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title fz-32">
-          Wirtschaftliche und effiziente Lösungen aus der Praxis 
+          Wirtschaftliche und effiziente Lösungen aus der Praxis
         </h2>
         <p class="sub-title">
-          Unsere vier spezialisierten Leistungsmodule bieten maßgeschneiderte Konzepte und bewährte Lösungen für Ihre Energie- und Nachhaltigkeitsherausforderungen.
+          Unsere vier spezialisierten Leistungsmodule bieten maßgeschneiderte
+          Konzepte und bewährte Lösungen für Ihre Energie- und
+          Nachhaltigkeitsherausforderungen.
         </p>
       </div>
       <!-- Section Title End -->

@@ -1,15 +1,31 @@
 <template>
-  <div class="static-testimonial mb-30">
+  <div class="static-testimonial">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-12" data-aos="fade-up">
         <div class="about-image-area">
           <div class="about-image">
-            <img :src="references.imgSrc" :alt="references.name" />
+            <div class="custom-object">
+              <a :href="references.imgLink" target="_blank">
+                <img
+                  :src="references.imgSrc"
+                  :alt="references.name"
+                  loading="lazy"
+                />
+              </a>
+            </div>
             <div class="custom-object-1">
-              <img src="/images/references/y-daire.png" alt="image" />
+              <img
+                src="/images/references/y-daire.png"
+                alt="image"
+                loading="lazy"
+              />
             </div>
             <div class="custom-object-2">
-              <img :src="references.imgSrcLogo" :alt="references.name" />
+              <img
+                :src="references.imgSrcLogo"
+                :alt="references.name"
+                loading="lazy"
+              />
             </div>
           </div>
 
@@ -73,14 +89,15 @@ export default {
 }
 .about-image {
   position: relative;
-  width: 400px;
 }
 .custom-object-1 {
   position: absolute;
   top: -30px;
   right: -20px;
 }
-
+.custom-object img {
+  max-height: 500px;
+}
 .custom-object-1 img {
   width: 80px;
 }

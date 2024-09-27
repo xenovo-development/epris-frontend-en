@@ -6,7 +6,11 @@
           <div class="footer-widget">
             <div class="footer-logo">
               <NuxtLink to="/">
-                <img :src="footerData.footerAboutWidget.logoSrc" alt="Logo" />
+                <img
+                  :src="footerData.footerAboutWidget.logoSrc"
+                  alt=" Epris Logo"
+                  loading="lazy"
+                />
               </NuxtLink>
             </div>
             <div class="footer-widget-content">
@@ -26,8 +30,9 @@
                   <img
                     class="svgInject"
                     src="/images/icon/linkedin-2.png"
-                    alt="Icon"
+                    alt="Linkedin Icon"
                     width="35"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -107,7 +112,7 @@ export default {
       if (title === "AGB") {
         return "/pdf/AllgemeineGeschäftsbedingungenEPRIS09092024.pdf";
       } else if (title === "Datenschutzerklärung") {
-        return "/pdf/EprisGmbHDatenschutzerklärungStand09092024.pdf";
+        return "/pdf/EPRISGmbHDatenschutzerklärungStand09092024.pdf";
       }
       return navUrl;
     },

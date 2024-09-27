@@ -8,14 +8,15 @@
         class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 mt-30"
       >
         <div class="impressum p-4">
-          <h4 class="mb-4">Epris GmbH</h4>
+          <h4 class="mb-4">EPRIS GmbH</h4>
           <div class="impressum-info">
             <p class="mt-4">
               <img
                 class="svgInject"
                 src="/images/icon/location.png"
-                alt="Icon"
+                alt="Location Icon"
                 width="20"
+                loading="lazy"
               />
               Leonhardgasse 11/R01 1030 Wien
             </p>
@@ -23,8 +24,9 @@
               <img
                 class="svgInject"
                 src="/images/icon/mail.png"
-                alt="Icon"
+                alt="Mail Icon"
                 width="20"
+                loading="lazy"
               />
               <a href="mailto:office@epris.group">office@epris.group</a>
             </p>
@@ -32,8 +34,9 @@
               <img
                 class="svgInject"
                 src="/images/icon/phone.png"
-                alt="Icon"
+                alt="Phone Icon"
                 width="20"
+                loading="lazy"
               />
               <a href="tel:+436765348113">+43 676 53 48 113</a>
             </p>
@@ -41,8 +44,9 @@
               <img
                 class="svgInject"
                 src="/images/icon/web.png"
-                alt="Icon"
+                alt="Web Icon"
                 width="20"
+                loading="lazy"
               />
               <nuxt-link to="/">www.epris.group</nuxt-link>
             </p>
@@ -50,20 +54,22 @@
               <img
                 class="svgInject"
                 src="/images/icon/document.png"
-                alt="Icon"
+                alt="Document Icon"
                 width="15"
+                loading="lazy"
               />
               FN 634540y, Handelsgericht Wien
             </p>
-            <p>
+            <!-- <p>
               <img
                 class="svgInject"
                 src="/images/icon/document.png"
-                alt="Icon"
+                alt="Document Icon"
                 width="15"
+                loading="lazy"
               />
               UID: ATU xxxxxx
-            </p>
+            </p> -->
             <p class="mt-5">
               Unternehmensberatung einschließlich der Unternehmensorganisation
               (§ 94 Z 74 GewO). Sitz: Wien
