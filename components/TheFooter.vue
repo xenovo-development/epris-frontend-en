@@ -111,13 +111,11 @@ export default {
     getPdfLink(title, navUrl) {
       if (title === "AGB") {
         return "/pdf/AllgemeineGeschäftsbedingungenEPRIS09092024.pdf";
-      } else if (title === "Datenschutzerklärung") {
-        return "/pdf/EPRISGmbHDatenschutzerklärungStand09092024.pdf";
       }
       return navUrl;
     },
     isPdf(title) {
-      return title === "AGB" || title === "Datenschutzerklärung";
+      return title === "AGB";
     },
   },
   mounted() {

@@ -4,8 +4,8 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Kontakt"
-      title="Kontakt"
+      activePageName="Impressum"
+      title="Impressum"
       backgroundUrl="/images/bg/e.jpg"
     />
     <Imprint />
