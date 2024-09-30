@@ -83,7 +83,7 @@ export default {
           imgLink: "https://www.thermewien.at/",
           imgSrcLogo: "/images/references/therme-logo.jpg",
           company: "Therme Wien",
-          name: "Dr. Friedl",
+          name: "Dr. Edmund Friedl",
           position: "Geschäftsführer Therme Wien",
         },
         {
