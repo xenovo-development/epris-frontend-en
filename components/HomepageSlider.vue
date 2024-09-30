@@ -24,10 +24,10 @@
                       {{ banner.text }}
                     </p>
                   </div>
-                  <NuxtLink to="/uber-epris" class="btn btn-green-beggie"
+                  <NuxtLink to="#about" class="btn btn-green-beggie"
                     >Loslegen</NuxtLink
                   >
-                  <NuxtLink to="/uber-epris" class="btn btn-outline-beggie"
+                  <NuxtLink :to="banner.button" class="btn btn-outline-beggie"
                     >Mehr erfahren</NuxtLink
                   >
                 </div>
@@ -81,6 +81,7 @@ export default {
           heading: "Energie: <br/>  wirtschaftlich • effizient • nachhaltig",
           text: "Unser umfassender Ansatz vereint Wirtschaftlichkeit, Effizienz und Nachhaltigkeit. Mit über 20 Jahren Erfahrung in der Energiewirtschaft entwickeln wir maßgeschneiderte Lösungen, die Ihr Unternehmen zukunftsfähig machen.",
           bgImgSrc: "/images/slider/1.png",
+          button:"/leistungen/energiedaten-optimierung"
         },
         {
           id: 2,
@@ -88,6 +89,7 @@ export default {
             "Integriertes Energiemanagement: Kosten senken, Effizienz steigern! ",
           text: "Durch die Vernetzung aller energierelevanten Unternehmensbereiche schaffen wir ein effektives Energiemanagement. Wir optimieren Ihre Prozesse abteilungsübergreifend und erzielen nachhaltige Kosteneinsparungen.",
           bgImgSrc: "/images/slider/3.png",
+          button:"/leistungen/strategisches-energiemanagement"
         },
         {
           id: 3,
@@ -95,12 +97,14 @@ export default {
             "Praxisorientierte Energieexpertise: Vom Konzept zur Umsetzung",
           text: "Mit unserer langjährigen Erfahrung begleiten wir Sie von der Strategieentwicklung bis zur praktischen Implementierung. Wir bieten Ihnen durchdachte, wirtschaftlich tragfähige Lösungen für alle Aspekte Ihres Energiemanagements.",
           bgImgSrc: "/images/slider/4.png",
+          button:"/leistungen/energiebeschaffung"
         },
         {
           id: 4,
           heading: "Synergien durch <br/> integriertes Energiemanagement.",
           text: "Wir verbinden Einkauf, Technik und ESG-Reporting zu einem abgestimmten Energiekonzept. So nutzen Sie Synergien, steigern Ihre betriebliche Effizienz und erfüllen gleichzeitig Ihre Nachhaltigkeitsziele.",
           bgImgSrc: "/images/slider/2.png",
+          button:"/leistungen/klimafahrplan"
         },
       ],
     };

@@ -1,5 +1,5 @@
 <template>
-  <div class="section-padding-t90 section-padding-bottom-200 overflow-hidden">
+  <div class="section-padding-t90 section-padding-bottom-200 overflow-hidden" id="about">
     <div class="container">
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
