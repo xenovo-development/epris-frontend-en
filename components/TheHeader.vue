@@ -54,8 +54,7 @@
           <div
             class="col-xl-3 col d-none d-sm-flex justify-content-end order-1 order-xl-2"
           >
-            <div class="header-search-area">
-              <!-- Header Login Start -->
+            <!-- <div class="header-search-area">
               <div class="header-search">
                 <button
                   class="header-search-toggle"
@@ -64,8 +63,7 @@
                   <i class="fa fa-search"></i>
                 </button>
               </div>
-              <!-- Header Login End -->
-            </div>
+            </div> -->
             <nuxt-link to="/kontakt" class="btn btn-contact btn-hover-primary"
               >Kontaktieren Sie uns</nuxt-link
             >

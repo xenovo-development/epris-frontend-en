@@ -9,11 +9,6 @@
           <!-- Section Title Start -->
           <div class="section-title text-center" data-aos="fade-up">
             <h2 class="title fz-32">Nutzen Sie unser Kontaktformular</h2>
-            <p class="sub-title">
-              Teilen Sie uns Ihre Anforderungen mit. <br />
-              Gemeinsam entwickeln wir Strategien, <br />
-              die auf Ihre Bedürfnisse abgestimmt sind.
-            </p>
           </div>
           <!-- Section Title End -->
           <div class="contact-form">
@@ -92,6 +87,8 @@
 </template>
 
 <script>
+import Swal from "sweetalert2";
+
 export default {
   data() {
     return {
@@ -105,11 +102,13 @@ export default {
         message: "",
       },
       errors: {},
+      visible: false,
     };
   },
   methods: {
     submitForm() {
       this.errors = {};
+
       if (!this.formData.name) {
         this.errors.name = "Vorname ist erforderlich.";
       }
@@ -127,13 +126,54 @@ export default {
       }
 
       if (Object.keys(this.errors).length === 0) {
-        console.log("Form data submitted:", this.formData);
-        this.resetForm();
+        this.sendFormData();
       }
     },
     validateEmail(email) {
       const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
       return re.test(email);
+    },
+    onTelInput(event) {
+      const value = event.target.value.replace(/\D/g, "");
+      this.formData.tel = value;
+    },
+    async sendFormData() {
+      try {
+        const response = await fetch(
+          "https://dashboard.epris.group/api/contact-mail",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(this.formData),
+          }
+        );
+
+        if (response.ok) {
+          this.visible = true;
+          Swal.fire({
+            icon: "success",
+            title: "Anfrage gesendet",
+            text: "Ihre Nachricht wurde erfolgreich versendet.",
+          });
+          this.resetForm();
+        } else {
+          this.visible = false;
+          Swal.fire({
+            icon: "error",
+            title: "Fehler",
+            text: "Es gab ein Problem beim Senden Ihrer Anfrage.",
+          });
+        }
+      } catch (error) {
+        this.visible = false;
+        Swal.fire({
+          icon: "error",
+          title: "Fehler",
+          text: "Es gab ein Problem beim Senden Ihrer Anfrage.",
+        });
+      }
     },
     resetForm() {
       this.formData = {
@@ -145,10 +185,6 @@ export default {
         tel: "",
         message: "",
       };
-    },
-    onTelInput(event) {
-      const value = event.target.value.replace(/\D/g, "");
-      this.formData.tel = value;
     },
   },
 };

@@ -16,13 +16,17 @@
 
             <!-- Newsletter Form Start -->
             <div class="newsletter-form">
-              <form>
+              <form @submit.prevent="subscribe">
                 <input
                   type="email"
                   placeholder="Ihre Emailadresse"
-                  name="mail"
+                  v-model="email"
+                  required
                 />
-                <button class="btn btn-primary btn-hover-secondary">
+                <button
+                  class="btn btn-primary btn-hover-secondary"
+                  type="submit"
+                >
                   Abonnieren
                 </button>
               </form>
@@ -42,10 +46,67 @@
 </template>
 
 <script>
+import Swal from "sweetalert2";
+
 export default {
   components: {
     SectionTitle: () => import("@/components/SectionTitle"),
     ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
+  },
+  data() {
+    return {
+      email: "",
+    };
+  },
+  methods: {
+    async subscribe() {
+      if (!this.validateEmail(this.email)) {
+        Swal.fire({
+          icon: "error",
+          title: "Ungültige E-Mail",
+          text: "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        });
+        return;
+      }
+
+      try {
+        const response = await fetch(
+          "https://dashboard.epris.group/api/subscription",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ email: this.email }),
+          }
+        );
+
+        if (response.ok) {
+          Swal.fire({
+            icon: "success",
+            title: "Abonnement erfolgreich",
+            text: "Vielen Dank für Ihr Abonnement!",
+          });
+          this.email = ""; // Formu sıfırla
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Fehler",
+            text: "Es gab ein Problem bei der Anmeldung.",
+          });
+        }
+      } catch (error) {
+        Swal.fire({
+          icon: "error",
+          title: "Fehler",
+          text: "Es gab ein Problem bei der Verbindung mit dem Server.",
+        });
+      }
+    },
+    validateEmail(email) {
+      const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+      return re.test(email);
+    },
   },
 };
 </script>

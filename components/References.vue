@@ -13,6 +13,7 @@
           :centered-slides="true"
           :autoplay="swiperOptions.autoplay"
           :pagination="swiperOptions.pagination"
+          :navigation="true"
         >
           <swiper-slide
             v-for="(references, index) in referencesData"
@@ -21,17 +22,18 @@
             <ReferencesItem :references="references" />
           </swiper-slide>
         </swiper>
-        <div class="swiper-pagination text-center"></div>
       </div>
     </div>
   </div>
 </template>
+
 <script>
-import SwiperCore, { Pagination, Autoplay } from "swiper/core";
-SwiperCore.use([Pagination, Autoplay]);
+import SwiperCore, { Pagination, Autoplay, Navigation } from "swiper/core"; // Navigation'ı içe aktar
+SwiperCore.use([Pagination, Autoplay, Navigation]); // Navigation'ı kullan
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 import "swiper/css";
+import "swiper/css/navigation"; // Navigation CSS dosyasını içe aktar
 
 export default {
   components: {
@@ -103,3 +105,16 @@ export default {
   },
 };
 </script>
+
+<style>
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4ec0ab;
+}
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+</style>
