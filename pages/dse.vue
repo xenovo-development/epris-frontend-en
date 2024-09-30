@@ -6,7 +6,7 @@
       <BreadcrumbOne
         activePageName="Datenschutzerklärung"
         title="Datenschutzerklärung"
-        backgroundUrl="/images/bg/e.jpg"
+        backgroundUrl="/images/bg/e.png"
       />
       <PrivacyPolicy />
       <TheFooter />

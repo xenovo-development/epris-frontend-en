@@ -14,8 +14,8 @@
       "keyFour":"Wissenstransfer",
       "keyFourText":"Praxisorientierter Wissenstransfer im Bereich Verbrauchsanalyse",
       "iconSrc": "/images/services/Strategisches.png",
-      "imgSrc": "/images/services/a.jpg",
-      "bgImg":"/images/bg/a.jpg"
+      "imgSrc": "/images/services/a.png",
+      "bgImg":"/images/bg/a.png"
     },
     {
       "id": 2,
@@ -36,8 +36,8 @@
       "keySix":"Marktmonitoring",
       "keySixText":"Fortlaufendes Marktmonitoring und Risikomanagement",
       "iconSrc": "/images/services/Energie.png",
-      "imgSrc": "/images/services/b.jpg",
-      "bgImg":"/images/bg/b.jpg"
+      "imgSrc": "/images/services/b.png",
+      "bgImg":"/images/bg/b.png"
     },
     {
       "id": 3,
@@ -54,8 +54,8 @@
       "keyFour":"Nachhaltigkeitsreporting",
       "keyFourText":"Integration von Energiedaten in das Nachhaltigkeitsreporting",
       "iconSrc": "/images/services/Energiedaten.png",
-      "imgSrc": "/images/services/c.jpg",
-      "bgImg":"/images/bg/c.jpg"
+      "imgSrc": "/images/services/c.png",
+      "bgImg":"/images/bg/c.png"
     },
     {
       "id": 4,
@@ -70,8 +70,8 @@
       "keyThree":"Klimazielerreichung",
       "keyThreeText":"Unterstützung bei der Projektumsetzung und Sicherstellung der Klimazielerreichung",
       "iconSrc": "/images/services/Klimafahrplan.png",
-      "imgSrc": "/images/services/d.jpg",
-      "bgImg":"/images/bg/d.jpg"
+      "imgSrc": "/images/services/d.png",
+      "bgImg":"/images/bg/d.png"
     }
   ]
   

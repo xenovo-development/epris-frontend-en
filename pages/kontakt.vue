@@ -6,7 +6,7 @@
     <BreadcrumbOne
       activePageName="Kontakt"
       title="Kontakt"
-      backgroundUrl="/images/bg/e.jpg"
+      backgroundUrl="/images/bg/e.png"
     />
     <Contact />
     <ContactForm />

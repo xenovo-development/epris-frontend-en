@@ -6,7 +6,7 @@
     <BreadcrumbOne
       activePageName="Referenzen"
       title="Referenzen"
-      backgroundUrl="/images/bg/references-bg.jpg"
+      backgroundUrl="/images/bg/references-bg.png"
       :style="{
         backgroundPosition: 'center 25%', 
         backgroundSize: 'cover',

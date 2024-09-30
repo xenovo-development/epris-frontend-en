@@ -6,7 +6,7 @@
     <BreadcrumbOne
       activePageName="Impressum"
       title="Impressum"
-      backgroundUrl="/images/bg/e.jpg"
+      backgroundUrl="/images/bg/e.png"
     />
     <Imprint />
     <TheFooter />

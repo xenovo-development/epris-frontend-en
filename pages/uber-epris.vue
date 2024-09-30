@@ -6,7 +6,7 @@
     <BreadcrumbOne
       activePageName="Über EPRIS"
       title="Energie: wirtschaftlich • effizient • nachhaltig"
-      backgroundUrl="/images/bg/e.jpg"
+      backgroundUrl="/images/bg/e.png"
     />
     <About class="section-padding-top about-section-padding-bottom-200" />
     <TheFooter />
