@@ -8,7 +8,7 @@
       title="Referenzen"
       backgroundUrl="/images/bg/references-bg.jpg"
       :style="{
-        backgroundPosition: 'center calc(5% - 130px)',
+        backgroundPosition: 'center 25%', 
         backgroundSize: 'cover',
       }"
     />

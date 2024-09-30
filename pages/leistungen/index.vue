@@ -8,7 +8,7 @@
       title="Leistungen"
       backgroundUrl="/images/bg/services-bg.jpg"
       :style="{
-        backgroundPosition: 'center calc(5% - 120px)',
+        backgroundPosition: 'center 85%', 
         backgroundSize: 'cover',
       }"
     />
