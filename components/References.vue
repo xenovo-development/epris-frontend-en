@@ -93,7 +93,7 @@ export default {
             "Unter ihrer Leitung wurde ein umfassender Klimafahrplan entwickelt, der unseren Einrichtungen einen tragfähigen Weg zur Erreichung der Klimaziele 2030 aufzeigt. Frau Prinz legte dabei besonderen Wert auf Datenqualität, Energieeffizienz und Wirtschaftlichkeit - Aspekte, die für den Energieverbrauch unserer Thermen- und Gesundheitsresorts von entscheidender Bedeutung sind.",
           textthree:
             'Konzepte zu implementieren, die sowohl ökonomisch als auch ökologisch sinnvoll sind. Dies stärkt die Position der VAMED Vitality World als führender Anbieter im Bereich Wellness und Nachhaltigkeit. Ich empfehle EPRIS und Sandra Prinz uneingeschränkt für Projekte, die fundiertes Fachwissen, strategisches Denken und operative Exzellenz im Bereich des integrierten Energiemanagements erfordern."',
-          imgSrc: "/images/references/vamed.jpg",
+          imgSrc: "/images/references/vamed.png",
           imgLink: "https://www.vitality-world.com/de",
           imgSrcLogo: "/images/references/vamed-logo.png",
           company: "VAMED Vitality Word",
