@@ -60,7 +60,7 @@
               />
               FN 634540y, Handelsgericht Wien
             </p>
-            <!-- <p>
+            <p>
               <img
                 class="svgInject"
                 src="/images/icon/document.png"
@@ -68,8 +68,8 @@
                 width="15"
                 loading="lazy"
               />
-              UID: ATU xxxxxx
-            </p> -->
+              UID: ATU 81146449
+            </p>
             <p class="mt-5">
               Unternehmensberatung einschließlich der Unternehmensorganisation
               (§ 94 Z 74 GewO). Sitz: Wien
