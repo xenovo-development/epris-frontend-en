@@ -5,26 +5,26 @@
         <div class="col-lg-6" data-aos="fade-up">
           <div class="about-content-area">
             <div class="section-title-two">
-              <span class="sub-title">Effizienz durch Praxis</span>
-              <h3 class="title">Erfahrung und Kompetenz als Paket</h3>
+              <span class="sub-title">Efficiency through Practice</span>
+              <h3 class="title">Experience and Competence as a Package</h3>
               <p class="mt-30">
-                EPRIS steht für praxisorientierte Expertise im Energiemanagement
-                und in der Nachhaltigkeit. Wir bieten durchdachte Lösungen – von
-                effizienter Energiebeschaffung über Verbrauchsanalysen bis zur
-                Integration Ihres Klimafahrplans in Ihre ESG-Berichterstattung.
-                Mit unserem integrativen Ansatz vernetzen wir Abteilungen wie
-                Einkauf, Technik und Nachhaltigkeit, um Synergien zu schaffen
-                und Managemententscheidungen zu optimieren.
+                EPRIS stands for practice-oriented expertise in energy
+                management and sustainability. We offer well-thought-out
+                solutions – from efficient energy procurement to consumption
+                analysis and integrating your climate roadmap into your ESG
+                reporting. With our integrated approach, we connect departments
+                like purchasing, technology, and sustainability to create
+                synergies and optimize management decisions.
               </p>
               <p class="mt-30">
-                Unser Fokus liegt auf Unternehmen mit hohem Energieverbrauch im
-                deutschsprachigen Raum. Wir kombinieren strategische Weitsicht
-                mit operativer Stärke und setzen nicht nur um, sondern beraten
-                auch – mit Fokus auf Wirtschaftlichkeit und Effizienz.
+                Our focus is on companies with high energy consumption in
+                German-speaking countries. We combine strategic foresight with
+                operational strength, and not only implement but also advise –
+                with a focus on economic viability and efficiency.
               </p>
               <p class="mt-30">
-                Unsere vier Leistungsmodule bieten ganzheitliche Lösungen für
-                Energieherausforderungen:
+                Our four service modules offer holistic solutions to energy
+                challenges:
               </p>
             </div>
           </div>
@@ -76,24 +76,24 @@
                 <div class="desc">
                   <p>{{ feature.text }}</p>
                 </div>
-                <NuxtLink :to="`/leistungen/${feature.slug}`" class="link">
-                  Details ansehen
+                <NuxtLink :to="`/services/${feature.slug}`" class="link">
+                  View Details
                 </NuxtLink>
               </div>
             </div>
           </div>
         </div>
         <p class="mt-30">
-          Bei EPRIS erhalten Sie individuell zugeschnittene Konzepte. Wir
-          begleiten von der Strategieentwicklung bis zur praktischen Umsetzung,
-          behalten dabei den wirtschaftlichen Aspekt fest im Blick und
-          unterstützen Sie bei der Erreichung Ihrer Energiemanagement- und
-          Nachhaltigkeitsziele.
+          At EPRIS, you get tailor-made concepts. We accompany you from
+          strategy development to practical implementation, always keeping the
+          economic aspect in focus, and supporting you in achieving your energy
+          management and sustainability goals.
         </p>
       </div>
     </div>
   </div>
 </template>
+
 <script>
 import serviceData from "~/data/service.json";
 export default {
@@ -104,6 +104,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .icon img {
   width: 100px;

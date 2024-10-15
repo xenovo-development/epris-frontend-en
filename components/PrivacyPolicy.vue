@@ -2,138 +2,127 @@
   <div class="section-padding-t90-b100 overflow-hidden" id="contact">
     <div class="container shape-animate">
       <!-- Section Title Start -->
-      <SectionTitle title="Datenschutzerklärung" add-class-name="mb-30 text-center" />
+      <SectionTitle title="Privacy Policy" add-class-name="mb-30 text-center" />
       <!-- Section Title End -->
       <div
         class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 mt-30"
       >
         <div class="impressum p-4">
           <div class="impressum-info">
-            <h6>Datenschutzerklärung</h6>
-            <h6>Stand: 09.09.2024</h6>
-            <h6 class="mt-4">1. Verantwortlicher</h6>
+            <h6>Privacy Policy</h6>
+            <h6>As of: 09.09.2024</h6>
+            <h6 class="mt-4">1. Responsible Entity</h6>
             <p>Epris GmbH</p>
             <p>Leonhardgasse 11/R01</p>
-            <p>1030 Wien</p>
+            <p>1030 Vienna</p>
             <p>office@epris.group</p>
             <p>+43 676 53 48 113</p>
-            <h6 class="mt-4">
-              2. Erhebung und Verarbeitung personenbezogener Daten
-            </h6>
+            <h6 class="mt-4">2. Collection and Processing of Personal Data</h6>
             <p>
-              Wir, die Epris GmbH, erheben, verarbeiten und nutzen Ihre
-              personenbezogenen Daten nur mit Ihrer Einwilligung oder wenn eine
-              sonstige rechtliche Grundlage im Einklang mit der DSGVO vorliegt.
-              Dies geschieht unter Einhaltung der datenschutz- und
-              zivilrechtlichen Bestimmungen. Es werden nur solche
-              personenbezogenen Daten erhoben, die für die Durchführung und
-              Abwicklung unserer Beratungsleistungen erforderlich sind oder die
-              Sie uns freiwillig zur Verfügung gestellt haben.
+              We, Epris GmbH, collect, process, and use your personal data only
+              with your consent or if another legal basis in accordance with the
+              GDPR applies. This is done in compliance with data protection and
+              civil law provisions. Only personal data necessary for the
+              execution and processing of our consulting services or data you
+              have voluntarily provided to us is collected.
             </p>
-            <h6 class="mt-4">3. Ihre Rechte</h6>
+            <h6 class="mt-4">3. Your Rights</h6>
             <p>
-              Als betroffene Person haben Sie jederzeit das Recht auf Auskunft
-              über Ihre gespeicherten personenbezogenen Daten, deren Herkunft
-              und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht
-              auf Berichtigung, Datenübertragung, Widerspruch, Einschränkung der
-              Bearbeitung sowie Sperrung oder Löschung unrichtiger bzw.
-              unzulässig verarbeiteter Daten.
+              As a data subject, you have the right to access your stored
+              personal data, its origin, recipients, and the purpose of data
+              processing at any time. You also have the right to correction,
+              data portability, objection, restriction of processing, and the
+              blocking or deletion of incorrect or unlawfully processed data.
             </p>
 
-            <h6 class="mt-4">4. Datensicherheit</h6>
+            <h6 class="mt-4">4. Data Security</h6>
             <p>
-              Der Schutz Ihrer personenbezogenen Daten erfolgt durch
-              entsprechende organisatorische und technische Vorkehrungen. Diese
-              Vorkehrungen betreffen insbesondere den Schutz vor unerlaubtem,
-              rechtswidrigem oder auch zufälligem Zugriff, Verarbeitung,
-              Verlust, Verwendung und Manipulation.
+              The protection of your personal data is ensured by appropriate
+              organizational and technical measures. These measures primarily
+              concern protection against unauthorized, unlawful, or accidental
+              access, processing, loss, use, and manipulation.
             </p>
 
-            <h6 class="mt-4">5. Verwendung der Daten</h6>
+            <h6 class="mt-4">5. Use of Data</h6>
             <p>
-              Wir werden die uns zur Verfügung gestellten Daten nicht für andere
-              Zwecke als die durch den Beratungsvertrag oder durch Ihre
-              Einwilligung oder sonst durch eine Bestimmung im Einklang mit der
-              DSGVO gedeckten Zwecken verarbeiten.
+              We will not use the data provided to us for purposes other than
+              those covered by the consulting contract, your consent, or other
+              provisions in accordance with the GDPR.
             </p>
 
-            <h6 class="mt-4">6. Übermittlung von Daten an Dritte</h6>
+            <h6 class="mt-4">6. Data Transfer to Third Parties</h6>
             <p>
-              Zur Erfüllung Ihres Auftrages ist es möglicherweise auch
-              erforderlich, Ihre Daten an Dritte (z.B. Dienstleister, Behörden)
-              weiterzuleiten. Eine Weiterleitung Ihrer Daten erfolgt
-              ausschließlich auf Grundlage der DSGVO, insbesondere zur Erfüllung
-              Ihres Auftrags oder aufgrund Ihrer vorherigen Einwilligung.
+              To fulfill your order, it may also be necessary to forward your
+              data to third parties (e.g., service providers, authorities). Data
+              will only be transferred based on the GDPR, especially for the
+              fulfillment of your order or with your prior consent.
             </p>
 
-            <h6 class="mt-4">7. Bekanntgabe von Datenpannen</h6>
+            <h6 class="mt-4">7. Notification of Data Breaches</h6>
             <p>
-              Wir sind bemüht sicherzustellen, dass Datenpannen frühzeitig
-              erkannt und gegebenenfalls unverzüglich Ihnen bzw. der zuständigen
-              Aufsichtsbehörde gemeldet werden.
+              We strive to ensure that data breaches are identified at an early
+              stage and, if necessary, reported to you and the relevant
+              supervisory authority without delay.
             </p>
 
-            <h6 class="mt-4">8. Aufbewahrung der Daten</h6>
+            <h6 class="mt-4">8. Data Retention</h6>
             <p>
-              Wir werden Daten nicht länger aufbewahren als dies zur Erfüllung
-              unserer vertraglichen bzw. gesetzlichen Verpflichtungen und zur
-              Abwehr allfälliger Haftungsansprüche erforderlich ist.
+              We will not retain data longer than necessary to fulfill our
+              contractual or legal obligations and to defend against any
+              potential liability claims.
             </p>
 
             <h6 class="mt-4">9. Cookies</h6>
             <p>
-              Diese Website verwendet „Cookies“, um unser Angebot
-              nutzerfreundlicher, effektiver und sicherer zu gestalten. Ein
-              „Cookie“ ist eine kleine Textdatei, die wir über unseren
-              Web-Server an die Cookie-Datei des Browsers auf die Festplatte
-              Ihres Computers übermitteln. Damit wird es unserer Website
-              ermöglicht, Sie als Nutzer wiederzuerkennen, wenn eine Verbindung
-              zwischen unserem Web-Server und Ihrem Browser hergestellt wird.
+              This website uses "cookies" to make our offer more user-friendly,
+              effective, and secure. A "cookie" is a small text file that our
+              web server sends to the cookie file of the browser on your
+              computer's hard drive. This enables our website to recognize you
+              as a user when a connection is established between our web server
+              and your browser.
             </p>
 
             <h6 class="mt-4">10. Google Maps</h6>
             <p>
-              Diese Website verwendet Google Maps, einen Kartendienst der Google
-              Inc. Durch die Nutzung von Google Maps können Informationen über
-              Ihre Nutzung dieser Webseite (einschließlich Ihrer IP-Adresse) an
-              einen Server von Google in den USA übertragen und dort gespeichert
-              werden.
+              This website uses Google Maps, a map service provided by Google
+              Inc. By using Google Maps, information about your use of this
+              website (including your IP address) may be transferred to a Google
+              server in the USA and stored there.
             </p>
 
-            <h6 class="mt-4">11. Server-Log-Files</h6>
+            <h6 class="mt-4">11. Server Log Files</h6>
             <p>
-              Zur Optimierung dieser Website in Bezug auf die
-              System-Performance, Benutzerfreundlichkeit und Bereitstellung von
-              nützlichen Informationen über unsere Dienstleistungen erhebt und
-              speichert der Provider der Website automatisch Informationen in
-              sogenannten Server-Log Files, die Ihr Browser automatisch an uns
-              übermittelt.
+              To optimize this website in terms of system performance, user
+              friendliness, and the provision of useful information about our
+              services, the provider of the website automatically collects and
+              stores information in server log files that your browser
+              automatically transmits to us.
             </p>
 
             <h6 class="mt-4">12. Newsletter</h6>
             <p>
-              Sie haben die Möglichkeit, mit Ihrer Einwilligung unseren
-              Newsletter zu abonnieren. Hierzu verarbeiten wir Ihren Namen, Ihre
-              E-Mail-Adresse und gegebenenfalls den Firmennamen zum Zweck des
-              Newsletter-Versands. Eine erteilte Einwilligung zum Erhalt des
-              Newsletters können Sie jederzeit über den im Newsletter
-              enthaltenen Link oder per E-Mail an office@epris.group widerrufen.
+              You have the option to subscribe to our newsletter with your
+              consent. To do so, we process your name, email address, and
+              possibly the company name for the purpose of sending the
+              newsletter. You can revoke consent to receive the newsletter at
+              any time via the link contained in the newsletter or by emailing
+              office@epris.group.
             </p>
 
-            <h6 class="mt-4">13. Unsere Kontaktdaten</h6>
+            <h6 class="mt-4">13. Our Contact Details</h6>
             <p>
-              Der Schutz Ihrer Daten ist uns besonders wichtig. Wir sind für Sie
-              unter den unten angeführten Kontaktdaten jederzeit für Ihre Fragen
-              oder Ihren Widerruf erreichbar.
+              The protection of your data is especially important to us. You can
+              contact us at any time for questions or to withdraw your consent
+              using the contact details below.
             </p>
             <p>Epris GmbH</p>
             <p>Leonhardgasse 11/R01</p>
-            <p>1030 Wien</p>
+            <p>1030 Vienna</p>
             <p>office@epris.group</p>
             <p>+43 676 53 48 113</p>
           </div>
           <button @click="uploadPdf" class="btn btn-primary mt-4">
-            Als PDF herunterladen
+            Download as PDF
           </button>
         </div>
       </div>
@@ -156,8 +145,8 @@ export default {
   methods: {
     uploadPdf() {
       const link = document.createElement("a");
-      link.href = "/pdf/EprisGmbHDatenschutzerklärungStand09092024.pdf";
-      link.download = "EprisGmbHDatenschutzerklärungStand09092024.pdf";
+      link.href = "/pdf/EprisGmbHPrivacyPolicyAsOf09092024.pdf";
+      link.download = "EprisGmbHPrivacyPolicyAsOf09092024.pdf";
       link.click();
     },
   },

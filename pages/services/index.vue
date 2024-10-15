@@ -4,15 +4,15 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Referenzen"
-      title="Referenzen"
-      backgroundUrl="/images/bg/references-bg.png"
+      activePageName="Services"
+      title="Services"
+      backgroundUrl="/images/bg/services-bg.jpg"
       :style="{
-        backgroundPosition: 'center 25%', 
+        backgroundPosition: 'center 85%', 
         backgroundSize: 'cover',
       }"
     />
-    <References />
+    <Service />
     <TheFooter />
   </div>
 </template>

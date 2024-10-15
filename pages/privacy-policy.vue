@@ -4,8 +4,8 @@
       <OffCanvasMobileMenu />
       <SearchPopup />
       <BreadcrumbOne
-        activePageName="Datenschutzerklärung"
-        title="Datenschutzerklärung"
+        activePageName="Privacy Policy"
+        title="Privacy Policy"
         backgroundUrl="/images/bg/e.png"
       />
       <PrivacyPolicy />

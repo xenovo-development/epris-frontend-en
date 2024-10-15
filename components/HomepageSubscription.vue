@@ -9,8 +9,8 @@
         <div class="col-lg-12">
           <div class="newsletter-content">
             <SectionTitle
-              title="Bleiben Sie informiert: Fachwissen rund um Energie"
-              sub-title="Hinterlassen Sie Ihre E-Mail-Adresse, um benachrichtigt zu werden, sobald ein neuer Fachartikel über die neuesten Trends und Entwicklungen veröffentlicht wird."
+              title="Stay Informed: Energy Expertise"
+              sub-title="Leave your email address to be notified as soon as a new expert article on the latest trends and developments is published."
               add-class-name="color-light"
             />
 
@@ -19,7 +19,7 @@
               <form @submit.prevent="subscribe">
                 <input
                   type="email"
-                  placeholder="Ihre Emailadresse"
+                  placeholder="Your Email Address"
                   v-model="email"
                   required
                 />
@@ -27,7 +27,7 @@
                   class="btn btn-primary btn-hover-secondary"
                   type="submit"
                 >
-                  Abonnieren
+                  Subscribe
                 </button>
               </form>
             </div>
@@ -63,8 +63,8 @@ export default {
       if (!this.validateEmail(this.email)) {
         Swal.fire({
           icon: "error",
-          title: "Ungültige E-Mail",
-          text: "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+          title: "Invalid Email",
+          text: "Please enter a valid email address.",
         });
         return;
       }
@@ -84,22 +84,22 @@ export default {
         if (response.ok) {
           Swal.fire({
             icon: "success",
-            title: "Abonnement erfolgreich",
-            text: "Vielen Dank für Ihr Abonnement!",
+            title: "Subscription Successful",
+            text: "Thank you for subscribing!",
           });
-          this.email = ""; // Formu sıfırla
+          this.email = ""; // Reset the form
         } else {
           Swal.fire({
             icon: "error",
-            title: "Fehler",
-            text: "Es gab ein Problem bei der Anmeldung.",
+            title: "Error",
+            text: "There was a problem with your subscription.",
           });
         }
       } catch (error) {
         Swal.fire({
           icon: "error",
-          title: "Fehler",
-          text: "Es gab ein Problem bei der Verbindung mit dem Server.",
+          title: "Error",
+          text: "There was a problem connecting to the server.",
         });
       }
     },

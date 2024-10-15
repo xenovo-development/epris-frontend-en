@@ -3,22 +3,22 @@
     <nav class="offcanvas-navigation" id="offcanvas-navigation">
       <ul>
         <li>
-          <NuxtLink to="/">Startseite</NuxtLink>
+          <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/uber-epris">Über EPRIS</NuxtLink>
+          <NuxtLink to="/about-epris">About EPRIS</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/leistungen">Leistungen</NuxtLink>
+          <NuxtLink to="/services">Services</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/referenzen">Referenzen</NuxtLink>
+          <NuxtLink to="/references">References</NuxtLink>
         </li>
         <!-- <li>
-          <NuxtLink to="/fachwissen">Fachwissen</NuxtLink>
+          <NuxtLink to="/expertise">Expertise</NuxtLink>
         </li> -->
         <li>
-          <NuxtLink to="/kontakt">Kontakt</NuxtLink>
+          <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
       </ul>
     </nav>

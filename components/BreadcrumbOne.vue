@@ -13,7 +13,7 @@
       <div class="container">
         <ul class="breadcrumb page-breadcrumb">
           <li class="breadcrumb-item">
-            <nuxt-link to="/">Startseite</nuxt-link>
+            <nuxt-link to="/">Homepage</nuxt-link>
           </li>
           <i class="fa fa-angle-right"></i>
           <li class="breadcrumb-item">

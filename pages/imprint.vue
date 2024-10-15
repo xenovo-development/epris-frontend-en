@@ -4,11 +4,11 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Über EPRIS"
-      title="Energie: wirtschaftlich • effizient • nachhaltig"
+      activePageName="Imprint"
+      title="Imprint"
       backgroundUrl="/images/bg/e.png"
     />
-    <About class="section-padding-top about-section-padding-bottom-200" />
+    <Imprint />
     <TheFooter />
   </div>
 </template>

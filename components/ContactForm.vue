@@ -8,7 +8,7 @@
         <div class="offset-lg-2 col-lg-8">
           <!-- Section Title Start -->
           <div class="section-title text-center" data-aos="fade-up">
-            <h2 class="title fz-32">Nutzen Sie unser Kontaktformular</h2>
+            <h2 class="title fz-32">Use Our Contact Form</h2>
           </div>
           <!-- Section Title End -->
           <div class="contact-form">
@@ -17,7 +17,7 @@
                 <div class="col-md-6 col-12 mt-30">
                   <input
                     type="text"
-                    placeholder="Vorname *"
+                    placeholder="First Name *"
                     v-model="formData.name"
                   />
                   <p v-if="errors.name" class="error">{{ errors.name }}</p>
@@ -25,7 +25,7 @@
                 <div class="col-md-6 col-12 mt-30">
                   <input
                     type="text"
-                    placeholder="Nachname *"
+                    placeholder="Last Name *"
                     v-model="formData.surname"
                   />
                   <p v-if="errors.surname" class="error">
@@ -35,21 +35,21 @@
                 <div class="col-md-6 col-12 mt-30">
                   <input
                     type="text"
-                    placeholder="Firmenname"
+                    placeholder="Company Name"
                     v-model="formData.companyname"
                   />
                 </div>
                 <div class="col-md-6 col-12 mt-30">
                   <input
                     type="text"
-                    placeholder="Ihre Position im Unternehmen"
+                    placeholder="Your Position in the Company"
                     v-model="formData.position"
                   />
                 </div>
                 <div class="col-md-12 col-12 mt-30">
                   <input
                     type="email"
-                    placeholder="E-Mail Adresse *"
+                    placeholder="Email Address *"
                     v-model="formData.email"
                   />
                   <p v-if="errors.email" class="error">{{ errors.email }}</p>
@@ -57,7 +57,7 @@
                 <div class="col-md-12 col-12 mt-30">
                   <input
                     type="tel"
-                    placeholder="Telefonnummer *"
+                    placeholder="Phone Number *"
                     v-model="formData.tel"
                     @input="onTelInput"
                   />
@@ -66,7 +66,7 @@
                 <div class="col-12 mt-30">
                   <textarea
                     v-model="formData.message"
-                    placeholder="Bitte beschreiben Sie Ihr Anliegen oder Ihre Anforderungen *"
+                    placeholder="Please describe your request or requirements *"
                   ></textarea>
                   <p v-if="errors.message" class="error">
                     {{ errors.message }}
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-12 text-center mt-30">
                   <button class="btn btn-primary btn-hover-secondary">
-                    Anfrage senden
+                    Send Request
                   </button>
                 </div>
               </div>
@@ -110,19 +110,19 @@ export default {
       this.errors = {};
 
       if (!this.formData.name) {
-        this.errors.name = "Vorname ist erforderlich.";
+        this.errors.name = "First name is required.";
       }
       if (!this.formData.surname) {
-        this.errors.surname = "Nachname ist erforderlich.";
+        this.errors.surname = "Last name is required.";
       }
       if (!this.validateEmail(this.formData.email)) {
-        this.errors.email = "Bitte geben Sie eine gültige E-Mail Adresse ein.";
+        this.errors.email = "Please enter a valid email address.";
       }
       if (!this.formData.tel) {
-        this.errors.tel = "Telefonnummer ist erforderlich.";
+        this.errors.tel = "Phone number is required.";
       }
       if (!this.formData.message) {
-        this.errors.message = "Bitte beschreiben Sie Ihr Anliegen.";
+        this.errors.message = "Please describe your request.";
       }
 
       if (Object.keys(this.errors).length === 0) {
@@ -154,24 +154,24 @@ export default {
           this.visible = true;
           Swal.fire({
             icon: "success",
-            title: "Anfrage gesendet",
-            text: "Ihre Nachricht wurde erfolgreich versendet.",
+            title: "Request Sent",
+            text: "Your message was successfully sent.",
           });
           this.resetForm();
         } else {
           this.visible = false;
           Swal.fire({
             icon: "error",
-            title: "Fehler",
-            text: "Es gab ein Problem beim Senden Ihrer Anfrage.",
+            title: "Error",
+            text: "There was a problem sending your request.",
           });
         }
       } catch (error) {
         this.visible = false;
         Swal.fire({
           icon: "error",
-          title: "Fehler",
-          text: "Es gab ein Problem beim Senden Ihrer Anfrage.",
+          title: "Error",
+          text: "There was a problem sending your request.",
         });
       }
     },

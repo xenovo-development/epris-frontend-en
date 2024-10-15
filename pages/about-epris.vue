@@ -4,12 +4,11 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Kontakt"
-      title="Kontakt"
+      activePageName="About EPRIS"
+      title="Energy: Economic • Efficient • Sustainable"
       backgroundUrl="/images/bg/e.png"
     />
-    <Contact />
-    <ContactForm />
+    <About class="section-padding-top about-section-padding-bottom-200" />
     <TheFooter />
   </div>
 </template>

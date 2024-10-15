@@ -2,7 +2,7 @@
   <div class="testimonial-section section-padding-t90 section-padding-bottom">
     <div class="container">
       <div class="section-title text-center" data-aos="fade-up">
-        <h2 class="title fz-32">Was unsere Kunden sagen</h2>
+        <h2 class="title fz-32">What Our Clients Say</h2>
       </div>
       <div class="testimonial-slider" data-aos="fade-up">
         <swiper
@@ -28,12 +28,12 @@
 </template>
 
 <script>
-import SwiperCore, { Pagination, Autoplay, Navigation } from "swiper/core"; // Navigation'ı içe aktar
-SwiperCore.use([Pagination, Autoplay, Navigation]); // Navigation'ı kullan
+import SwiperCore, { Pagination, Autoplay, Navigation } from "swiper/core"; // Import Navigation
+SwiperCore.use([Pagination, Autoplay, Navigation]); // Use Navigation
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 import "swiper/css";
-import "swiper/css/navigation"; // Navigation CSS dosyasını içe aktar
+import "swiper/css/navigation"; // Import Navigation CSS
 
 export default {
   components: {
@@ -58,47 +58,47 @@ export default {
       referencesData: [
         {
           id: 1,
-          text: '"Frau Prinz übernahm eine Schlüsselrolle in unserem Ausschreibungsprojekt zur Energieversorgung des Blockheizkraftwerks der St. Martins Therme. Ihre umfassende Expertise im strategischen und operativen Energieeinkauf sowie ihr Verhandlungsgeschick waren entscheidend für den Erfolg.',
+          text: '"Ms. Prinz played a key role in our energy supply tender project for the combined heat and power plant of St. Martins Therme. Her comprehensive expertise in strategic and operational energy procurement, along with her negotiation skills, were crucial to the success.',
           texttwo:
-            "Sie leitete den Ausschreibungsprozess von der Lieferantenauswahl bis zu den Endverhandlungen und der Vertragsvorbereitung. Dank ihrer detaillierten Preisspiegel und fundierten Empfehlungen konnten wir kosteneffiziente Entscheidungen treffen.",
+            "She led the tender process from supplier selection to final negotiations and contract preparation. Thanks to her detailed price comparisons and well-founded recommendations, we were able to make cost-effective decisions.",
           textthree:
-            'Durch die enge Zusammenarbeit mit dem Management stellte Frau Prinz sicher, dass die Energieversorgung passgenau auf die Bedürfnisse der Therme abgestimmt wurde. Ihre Fähigkeit, technische und wirtschaftliche Anforderungen optimal zu integrieren, machte unsere Energieversorgung effizient und zukunftssicher."',
+            'By closely collaborating with management, Ms. Prinz ensured that the energy supply was tailored to the needs of the spa. Her ability to optimally integrate technical and economic requirements made our energy supply efficient and future-proof."',
           imgSrc: "/images/references/martins.jpg",
           imgLink: "https://www.stmartins.at/en",
           imgSrcLogo: "/images/references/martins-logo.png",
           company: "St. Martins Therme & Lodge",
           name: "Wolfgang Moser",
-          position: "Director of Finance & Prokurist",
+          position: "Director of Finance & Authorized Signatory",
         },
         {
           id: 2,
-          text: '"Frau Prinz hat in unserem Projekt zur Optimierung der Energieversorgung der Therme Wien Herausragendes geleistet. Mit ihrem umfassenden Ansatz analysierte sie unsere Energiequellen – von der Photovoltaikanlage bis zu den Energielieferverträgen – und konzipierte maßgeschneiderte und innovative Maßnahmen zur Kostensenkung durch Spotpreismodelle.',
+          text: '"Ms. Prinz has done outstanding work in our project to optimize the energy supply of Therme Wien. With her comprehensive approach, she analyzed our energy sources – from the photovoltaic system to energy supply contracts – and designed tailored and innovative measures to reduce costs through spot price models.',
           texttwo:
-            "Ihre profunde Marktkenntnis und Fähigkeit, kosteneffiziente Strategien zu entwickeln, waren für uns von großem Nutzen. Die Einführung flexibler Beschaffungsmodelle und Vertragsoptimierungen haben unsere Energieversorgung effizienter und wirtschaftlicher gemacht.",
+            "Her profound market knowledge and ability to develop cost-efficient strategies were of great benefit to us. The introduction of flexible procurement models and contract optimizations made our energy supply more efficient and economical.",
           textthree:
-            "Dank ihrer Unterstützung konnten wir nicht nur Kosten senken, sondern auch unsere Nachhaltigkeitsziele vorantreiben. Frau Prinz versteht es, komplexe energiewirtschaftliche Themen in greifbare und wirtschaftlich sinnvolle Konzepte zu übersetzen.",
+            "Thanks to her support, we were able not only to reduce costs but also to advance our sustainability goals. Ms. Prinz has a remarkable ability to translate complex energy market topics into practical and economically sound concepts.",
           textfour:
-            'Ich empfehle EPRIS und Sandra Prinz für Unternehmen, die strategische Vision und praxisnahe Umsetzung im Energiemanagement suchen."',
+            'I highly recommend EPRIS and Sandra Prinz for companies seeking strategic vision and practical implementation in energy management."',
           imgSrc: "/images/references/therme2.jpg",
           imgLink: "https://www.thermewien.at/",
           imgSrcLogo: "/images/references/therme-logo.jpg",
           company: "Therme Wien",
           name: "Dr. Edmund Friedl",
-          position: "Geschäftsführer Therme Wien",
+          position: "Managing Director, Therme Wien",
         },
         {
           id: 3,
-          text: '"Im Rahmen unseres Projekts "Nachhaltigkeit LEBEN" hat Frau Prinz als externe Projektleiterin bei der VAMED Vitality World Herausragendes geleistet. Mit ihrer Expertise im integrierten Energiemanagement hat sie ein sechsköpfiges Team geführt und wesentlich zur Verankerung des Themas Nachhaltigkeit in unseren Resorts beigetragen.',
+          text: '"As part of our "Living Sustainability" project, Ms. Prinz, as an external project manager at VAMED Vitality World, delivered outstanding work. With her expertise in integrated energy management, she led a six-person team and significantly contributed to embedding sustainability in our resorts.',
           texttwo:
-            "Unter ihrer Leitung wurde ein umfassender Klimafahrplan entwickelt, der unseren Einrichtungen einen tragfähigen Weg zur Erreichung der Klimaziele 2030 aufzeigt. Frau Prinz legte dabei besonderen Wert auf Datenqualität, Energieeffizienz und Wirtschaftlichkeit - Aspekte, die für den Energieverbrauch unserer Thermen- und Gesundheitsresorts von entscheidender Bedeutung sind.",
+            "Under her leadership, a comprehensive climate roadmap was developed, providing our facilities with a viable path to achieving the 2030 climate goals. Ms. Prinz placed particular emphasis on data quality, energy efficiency, and economic viability – aspects that are crucial for the energy consumption of our thermal and health resorts.",
           textthree:
-            'Konzepte zu implementieren, die sowohl ökonomisch als auch ökologisch sinnvoll sind. Dies stärkt die Position der VAMED Vitality World als führender Anbieter im Bereich Wellness und Nachhaltigkeit. Ich empfehle EPRIS und Sandra Prinz uneingeschränkt für Projekte, die fundiertes Fachwissen, strategisches Denken und operative Exzellenz im Bereich des integrierten Energiemanagements erfordern."',
+            'Her ability to implement concepts that are both economically and ecologically sensible strengthens VAMED Vitality World’s position as a leading provider in wellness and sustainability. I fully recommend EPRIS and Sandra Prinz for projects that require in-depth expertise, strategic thinking, and operational excellence in integrated energy management."',
           imgSrc: "/images/references/vamed.png",
           imgLink: "https://www.vitality-world.com/de",
           imgSrcLogo: "/images/references/vamed-logo.png",
-          company: "VAMED Vitality Word",
+          company: "VAMED Vitality World",
           name: "Klaus Hofmann",
-          position: "Managing Director VAMED Vitality World",
+          position: "Managing Director, VAMED Vitality World",
         },
       ],
     };

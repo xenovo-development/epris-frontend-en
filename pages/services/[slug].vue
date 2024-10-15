@@ -19,11 +19,11 @@
                 class="service-single-widget mt-40"
                 :style="{ backgroundColor: '#f8faff' }"
               >
-                <h4 class="service-widget-title">Leistungen</h4>
+                <h4 class="service-widget-title">Services</h4>
                 <ul class="service-list">
                   <li v-for="(service, index) in serviceData" :key="index">
                     <i class="fas fa-check-circle"></i>
-                    <nuxt-link :to="'/leistungen/' + service.slug">{{
+                    <nuxt-link :to="'/services/' + service.slug">{{
                       service.title
                     }}</nuxt-link>
                   </li>

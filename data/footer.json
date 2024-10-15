@@ -5,65 +5,65 @@
     "email": "office@epris.group",
     "linkedinUrl": "https://www.linkedin.com/company/epris-group"
   },
-  "footerLinkTitleOne": "Seiten",
+  "footerLinkTitleOne": "Pages",
   "navListOne": [
     {
-      "navTitle": "Startseite",
+      "navTitle": "Homepage",
       "navUrl": "/"
     },
     {
-      "navTitle": "Über EPRIS",
-      "navUrl": "/uber-epris"
+      "navTitle": "About EPRIS",
+      "navUrl": "/about-epris"
     },
     {
-      "navTitle": "Leistungen",
-      "navUrl": "/leistungen"
+      "navTitle": "Services",
+      "navUrl": "/services"
     },
     {
-      "navTitle": "Referenzen",
-      "navUrl": "/referenzen"
+      "navTitle": "References",
+      "navUrl": "/references"
     },
     {
-      "navTitle": "Kontakt",
-      "navUrl": "/kontakt"
+      "navTitle": "Contact",
+      "navUrl": "/contact"
     }
   ],
-  "footerLinkTitleTwo": "Leistungen",
+  "footerLinkTitleTwo": "Services",
   "navListTwo": [
     {
-      "navTitle": "Strategisches Energiemanagement",
-      "navUrl": "/leistungen/strategisches-energiemanagement"
+      "navTitle": "Strategic Energy Management",
+      "navUrl": "/services/strategic-energy-management"
     },
     {
-      "navTitle": "Energiebeschaffung",
-      "navUrl": "/leistungen/energiebeschaffung"
+      "navTitle": "Energy Procurement",
+      "navUrl": "/services/energy-procurement"
     },
     {
-      "navTitle": "Energiedaten Optimierung",
-      "navUrl": "/leistungen/energiedaten-optimierung"
+      "navTitle": "Energy Data Optimization",
+      "navUrl": "/services/energy-data-optimization"
     },
     {
-      "navTitle": "Klimafahrplan",
-      "navUrl": "/leistungen/klimafahrplan"
+      "navTitle": "Climate Roadmap",
+      "navUrl": "/services/climate-roadmap"
     }
   ],
-  "footerLinkTitleFour": "Rechtiliche Hinweise",
+  "footerLinkTitleFour": "Legal Information",
   "navListFour": [
     {
-      "navTitle": "Impressum",
-      "navUrl": "/impressum"
+      "navTitle": "Imprint",
+      "navUrl": "/imprint"
     },
     {
-      "navTitle": "Datenschutzerklärung",
-      "navUrl": "/dse"
+      "navTitle": "Privacy Policy",
+      "navUrl": "/privacy-policy"
     },
     {
-      "navTitle": "AGB",
+      "navTitle": "Terms and Conditions",
       "navUrl": "/"
     },
     {
-      "navTitle": "Kontakt",
-      "navUrl": "/kontakt"
+      "navTitle": "Contact",
+      "navUrl": "/contact"
     }
   ]
 }

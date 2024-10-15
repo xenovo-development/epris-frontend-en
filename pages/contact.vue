@@ -4,11 +4,12 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Impressum"
-      title="Impressum"
+      activePageName="Contact"
+      title="Contact"
       backgroundUrl="/images/bg/e.png"
     />
-    <Imprint />
+    <Contact />
+    <ContactForm />
     <TheFooter />
   </div>
 </template>

@@ -4,12 +4,10 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title fz-32">
-          Wirtschaftliche und effiziente Lösungen aus der Praxis
+          Practical, Economic, and Efficient Solutions
         </h2>
         <p class="sub-title">
-          Unsere vier spezialisierten Leistungsmodule bieten maßgeschneiderte
-          Konzepte und bewährte Lösungen für Ihre Energie- und
-          Nachhaltigkeitsherausforderungen.
+          Our four specialized service modules offer tailored concepts and proven solutions for your energy and sustainability challenges.
         </p>
       </div>
       <!-- Section Title End -->

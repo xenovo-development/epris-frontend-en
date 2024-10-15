@@ -19,27 +19,16 @@
                 class="service-single-widget mt-40"
                 :style="{ backgroundColor: '#f8faff' }"
               >
-                <h4 class="service-widget-title">Leistungen</h4>
+                <h4 class="service-widget-title">Services</h4>
                 <ul class="service-list">
                   <li v-for="(service, index) in serviceData" :key="index">
                     <i class="fas fa-check-circle"></i>
-                    <a :href="'/leistungen/' + service.slug">{{
+                    <a :href="'/services/' + service.slug">{{
                       service.title
                     }}</a>
                   </li>
                 </ul>
               </div>
-              <!-- <div
-                class="service-single-widget mt-40"
-                :style="{ backgroundColor: '#f8faff' }"
-              >
-                <h4 class="service-widget-title">a</h4>
-                <ul class="service-list">
-                  <li v-for="(serviceItem, index) in serviceItems" :key="index">
-                    <a href="#">{{ serviceItem.name }}</a>
-                  </li>
-                </ul>
-              </div> -->
             </div>
           </div>
           <div class="col-lg-8 order-1 order-lg-2">

@@ -4,14 +4,13 @@
       <!-- Section Title Start -->
       <div class="section-title text-center" data-aos="fade-up">
         <h2 class="title">
-          EPRIS: Wirtschaftliche Effizienz durch <br />
-          integriertes Energiemanagement
+          EPRIS: Economic Efficiency through <br />
+          Integrated Energy Management
         </h2>
         <p class="sub-title">
-          EPRIS ist Ihr erfahrener Partner für Energiemanagement, das
-          Kosteneffizienz und Nachhaltigkeit vereint. Mit über 20 Jahren
-          Erfahrung optimieren wir alle energierelevanten Prozesse Ihres
-          Unternehmens.
+          EPRIS is your experienced partner for energy management that combines
+          cost efficiency and sustainability. With over 20 years of experience,
+          we optimize all energy-related processes in your company.
         </p>
       </div>
       <!-- Section Title End -->
@@ -45,7 +44,7 @@
             <!-- Animation Shape End -->
           </div>
         </div>
-        <!-- About Image Area Start -->
+        <!-- About Image Area End -->
 
         <!-- About Start -->
         <div class="col-xl-5 col-lg-6" data-aos="fade-up">
@@ -53,49 +52,49 @@
             <!-- Section Title Two Start -->
             <div class="section-title-two">
               <span class="sub-title"
-                >Energie: wirtschaftlich • effizient • nachhaltig</span
+                >Energy: economical • efficient • sustainable</span
               >
-              <h3 class="title">Erfahrung und Kompetenz in einem Paket</h3>
+              <h3 class="title">Experience and Expertise in One Package</h3>
             </div>
             <!-- Section Title Two End -->
 
             <!-- Icon List Start -->
             <ul class="icon-list">
               <li>
-                Wir analysieren und verbessern alle Bereiche, die mit Energie zu
-                tun haben - von der Produktion bis zur Verwaltung
+                We analyze and improve all areas related to energy – from
+                production to administration
               </li>
               <li>
-                Unser integrierter Ansatz vernetzt Einkauf, Technik und
-                Nachhaltigkeit für maximale Synergien
+                Our integrated approach connects procurement, technology, and
+                sustainability for maximum synergies
               </li>
               <li>
-                Wir entwickeln maßgeschneiderte Strategien zur Kostensenkung und
-                Effizienzsteigerung
+                We develop customized strategies for cost reduction and
+                efficiency enhancement
               </li>
               <li>
-                Unser Expertenwissen zu aktuellen Marktentwicklungen,
-                Regulatorien und Technologien sichert Ihren Wettbewerbsvorteil
+                Our expert knowledge on current market trends, regulations, and
+                technologies ensures your competitive advantage
               </li>
               <li>
-                Wir begleiten Sie von der Konzeption bis zur praktischen
-                Umsetzung Ihrer Energieprojekte
+                We accompany you from concept to practical implementation of
+                your energy projects
               </li>
             </ul>
             <!-- Icon List End -->
 
             <p>
-              Vertrauen Sie auf EPRIS, um Ihr Energiemanagement zukunftssicher
-              zu gestalten und Nachhaltigkeit als Erfolgsfaktor zu etablieren.
+              Trust EPRIS to make your energy management future-proof and to
+              establish sustainability as a key success factor.
             </p>
             <NuxtLink
-              to="/uber-epris"
+              to="/about-epris"
               class="btn btn-primary btn-hover-secondary mt-4"
-              >Über EPRIS</NuxtLink
+              >About EPRIS</NuxtLink
             >
           </div>
         </div>
-        <!-- About Start -->
+        <!-- About End -->
       </div>
       <!-- About Wrapper End -->
     </div>

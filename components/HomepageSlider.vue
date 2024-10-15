@@ -25,10 +25,10 @@
                     </p>
                   </div>
                   <NuxtLink to="#about" class="btn btn-green-beggie"
-                    >Loslegen</NuxtLink
+                    >Get Started</NuxtLink
                   >
                   <NuxtLink :to="banner.button" class="btn btn-outline-beggie"
-                    >Mehr erfahren</NuxtLink
+                    >Learn More</NuxtLink
                   >
                 </div>
               </div>
@@ -78,39 +78,40 @@ export default {
       sliderData: [
         {
           id: 1,
-          heading: "Energie: <br/>  wirtschaftlich • effizient • nachhaltig",
-          text: "Unser umfassender Ansatz vereint Wirtschaftlichkeit, Effizienz und Nachhaltigkeit. Mit über 20 Jahren Erfahrung in der Energiewirtschaft entwickeln wir maßgeschneiderte Lösungen, die Ihr Unternehmen zukunftsfähig machen.",
+          heading: "Energy: <br/> Economic • Efficient • Sustainable",
+          text: "Our comprehensive approach combines economy, efficiency, and sustainability. With over 20 years of experience in the energy industry, we develop customized solutions that make your company future-proof.",
           bgImgSrc: "/images/slider/1.png",
-          button:"/leistungen/energiedaten-optimierung"
+          button: "/services/energy-data-optimization",
         },
         {
           id: 2,
           heading:
-            "Integriertes Energiemanagement: Kosten senken, Effizienz steigern! ",
-          text: "Durch die Vernetzung aller energierelevanten Unternehmensbereiche schaffen wir ein effektives Energiemanagement. Wir optimieren Ihre Prozesse abteilungsübergreifend und erzielen nachhaltige Kosteneinsparungen.",
+            "Integrated Energy Management: Reduce Costs, Increase Efficiency!",
+          text: "By connecting all energy-relevant areas of the company, we create an effective energy management system. We optimize your processes across departments and achieve sustainable cost savings.",
           bgImgSrc: "/images/slider/3.png",
-          button:"/leistungen/strategisches-energiemanagement"
+          button: "/services/strategic-energy-management",
         },
         {
           id: 3,
           heading:
-            "Praxisorientierte Energieexpertise: Vom Konzept zur Umsetzung",
-          text: "Mit unserer langjährigen Erfahrung begleiten wir Sie von der Strategieentwicklung bis zur praktischen Implementierung. Wir bieten Ihnen durchdachte, wirtschaftlich tragfähige Lösungen für alle Aspekte Ihres Energiemanagements.",
+            "Practical Energy Expertise: From Concept to Implementation",
+          text: "With our many years of experience, we accompany you from strategy development to practical implementation. We offer well-thought-out, economically viable solutions for all aspects of your energy management.",
           bgImgSrc: "/images/slider/4.png",
-          button:"/leistungen/energiebeschaffung"
+          button: "/services/energy-procurement",
         },
         {
           id: 4,
-          heading: "Synergien durch <br/> integriertes Energiemanagement.",
-          text: "Wir verbinden Einkauf, Technik und ESG-Reporting zu einem abgestimmten Energiekonzept. So nutzen Sie Synergien, steigern Ihre betriebliche Effizienz und erfüllen gleichzeitig Ihre Nachhaltigkeitsziele.",
+          heading: "Synergies through <br/> Integrated Energy Management.",
+          text: "We connect procurement, technology, and ESG reporting into a coordinated energy concept. This way, you can leverage synergies, increase operational efficiency, and meet your sustainability goals.",
           bgImgSrc: "/images/slider/2.png",
-          button:"/leistungen/klimafahrplan"
+          button: "/services/climate-roadmap",
         },
       ],
     };
   },
 };
 </script>
+
 <style scoped>
 @media screen and (max-width: 1700px) {
   .intro-content {

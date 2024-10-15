@@ -16,17 +16,17 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "EPRIS - Energie: wirtschaftlich • effizient • nachhaltig",
+      title: "EPRIS - Energy: Economic • Efficient • Sustainable",
       meta: [
         {
           name: "description",
           content:
-            "EPRIS bietet energieeffiziente und nachhaltige Lösungen für Unternehmen, um Betriebskosten zu senken und die Umwelt zu schützen.",
+            "EPRIS offers energy-efficient and sustainable solutions for companies to reduce operating costs and protect the environment.",
         },
         {
           name: "keywords",
           content:
-            "Energie, Effizienz, Nachhaltigkeit, wirtschaftlich, grüne Energie, EPRIS",
+            "energy, efficiency, sustainability, economic, green energy, EPRIS",
         },
         { name: "author", content: "EPRIS GmbH" },
         { name: "robots", content: "index, follow" },
@@ -35,28 +35,28 @@ export default defineNuxtConfig({
         // Open Graph (OG) meta tags
         {
           property: "og:title",
-          content: "EPRIS - Energie: wirtschaftlich • effizient • nachhaltig",
+          content: "EPRIS - Energy: Economic • Efficient • Sustainable",
         },
         {
           property: "og:description",
           content:
-            "Energieeffiziente und nachhaltige Lösungen für eine bessere Zukunft.",
+            "Energy-efficient and sustainable solutions for a better future.",
         },
         { property: "og:image", content: "/images/logo/epris_group_logo.jpeg" },
         { property: "og:url", content: "https://www.epris.group" },
         { property: "og:type", content: "website" },
-        { property: "og:locale", content: "de_DE" },
+        { property: "og:locale", content: "en_US" },
 
         // Twitter Card meta tags
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: "EPRIS - Energie: wirtschaftlich • effizient • nachhaltig",
+          content: "EPRIS - Energy: Economic • Efficient • Sustainable",
         },
         {
           name: "twitter:description",
           content:
-            "Energieeffiziente und nachhaltige Lösungen für Unternehmen.",
+            "Energy-efficient and sustainable solutions for companies.",
         },
         {
           name: "twitter:image",

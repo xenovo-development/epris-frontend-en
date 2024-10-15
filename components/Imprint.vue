@@ -2,7 +2,7 @@
   <div class="section-padding-t90-b100 overflow-hidden" id="contact">
     <div class="container shape-animate">
       <!-- Section Title Start -->
-      <SectionTitle title="Impressum" add-class-name="mb-30 text-center" />
+      <SectionTitle title="Imprint" add-class-name="mb-30 text-center" />
       <!-- Section Title End -->
       <div
         class="row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 mt-30"
@@ -18,7 +18,7 @@
                 width="20"
                 loading="lazy"
               />
-              Leonhardgasse 11/R01 1030 Wien
+              Leonhardgasse 11/R01 1030 Vienna
             </p>
             <p>
               <img
@@ -58,7 +58,7 @@
                 width="15"
                 loading="lazy"
               />
-              FN 634540y, Handelsgericht Wien
+              FN 634540y, Commercial Court of Vienna
             </p>
             <p>
               <img
@@ -68,14 +68,15 @@
                 width="15"
                 loading="lazy"
               />
-              UID: ATU 81146449
+              VAT ID: ATU 81146449
             </p>
             <p class="mt-5">
-              Unternehmensberatung einschließlich der Unternehmensorganisation
-              (§ 94 Z 74 GewO). Sitz: Wien
+              Business consulting including business organization (§ 94 Z 74
+              GewO). Registered office: Vienna
             </p>
             <p>
-              Geschäftsführung: Mag. Sandra Prinz (alleinvertretungsberechtigt)
+              Managing Director: Mag. Sandra Prinz (sole authorized
+              representative)
             </p>
           </div>
         </div>

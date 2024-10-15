@@ -3,8 +3,8 @@
     <div class="container">
       <!-- Section Title Start -->
       <SectionTitle
-        :title="'Wirtschaftliche und effiziente Lösungen für <br> Energie und Nachhaltigkeit'"
-        sub-title="Unsere vier Leistungsmodule bieten maßgeschneiderte Konzepte und praxisorientierte Lösungen für Ihre Energie- und Nachhaltigkeitsherausforderungen."
+        :title="'Economic and Efficient Solutions for <br> Energy and Sustainability'"
+        sub-title="Our four service modules offer tailored concepts and practice-oriented solutions for your energy and sustainability challenges."
         add-class-name="mb-60"
       />
       <!-- Section Title End -->
@@ -27,8 +27,8 @@
               <div class="desc">
                 <p>{{ feature.text }}</p>
               </div>
-              <NuxtLink :to="`/leistungen/${feature.slug}`" class="link">
-                Details ansehen
+              <NuxtLink :to="`/services/${feature.slug}`" class="link">
+                View Details
               </NuxtLink>
             </div>
           </div>

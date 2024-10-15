@@ -54,18 +54,8 @@
           <div
             class="col-xl-3 col d-none d-sm-flex justify-content-end order-1 order-xl-2"
           >
-            <!-- <div class="header-search-area">
-              <div class="header-search">
-                <button
-                  class="header-search-toggle"
-                  @click="toggleClass('addClass', 'search-popup-open')"
-                >
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
-            </div> -->
-            <nuxt-link to="/kontakt" class="btn btn-contact btn-hover-primary"
-              >Kontaktieren Sie uns</nuxt-link
+            <nuxt-link to="/contact" class="btn btn-contact btn-hover-primary"
+              >Contact Us</nuxt-link
             >
           </div>
           <!-- Header Right End -->
@@ -109,7 +99,7 @@ export default {
       }
     },
 
-    //offcanvas search
+    // offcanvas search
     toggleClass(addRemoveClass, className) {
       const el = document.querySelector("#search-popup");
       if (addRemoveClass === "addClass") {

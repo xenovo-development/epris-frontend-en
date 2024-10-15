@@ -13,8 +13,8 @@
       <div class="desc">
         <p>{{ service.text }}</p>
       </div>
-      <NuxtLink :to="`/leistungen/${service.slug}`" class="link"
-        >Details anzeigen</NuxtLink
+      <NuxtLink :to="`/services/${service.slug}`" class="link"
+        >View Details</NuxtLink
       >
     </div>
   </div>
@@ -25,6 +25,7 @@ export default {
   props: ["service", "addClassName"],
 };
 </script>
+
 <style scoped>
 .icon img {
   width: 100px;

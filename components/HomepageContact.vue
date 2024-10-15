@@ -3,8 +3,8 @@
     <div class="container shape-animate">
       <!-- Section Title Start -->
       <SectionTitle
-        title="Synergien durch integriertes Energiemanagement"
-        sub-title="Erfahren Sie, wie gezielte Strategien Ihre Energiekosten senken und die Effizienz Ihres Unternehmens steigern können."
+        title="Synergies through Integrated Energy Management"
+        sub-title="Learn how targeted strategies can reduce your energy costs and increase your business efficiency."
         add-class-name="mb-30"
       />
       <!-- Section Title End -->
@@ -23,7 +23,7 @@
               />
             </div>
             <div class="info">
-              <h4 class="title">Rufen Sie uns gerne an:</h4>
+              <h4 class="title">Feel free to call us:</h4>
               <span class="info-text"
                 ><a href="tel:+436765348113">+43 676 53 48 113</a></span
               >
@@ -42,9 +42,9 @@
               />
             </div>
             <div class="info">
-              <h4 class="title">Ihre Nachricht einfach an:</h4>
+              <h4 class="title">Send your message to:</h4>
               <span class="info-text">
-                <a href="mailto:office@epris.group ">office@epris.group </a>
+                <a href="mailto:office@epris.group">office@epris.group</a>
               </span>
             </div>
           </div>
@@ -68,6 +68,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 #contact {
   margin-top: 100px;
