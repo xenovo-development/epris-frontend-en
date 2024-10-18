@@ -15,10 +15,10 @@
             </div>
             <div class="footer-widget-content">
               <div class="content">
-                <a href="tel:+436765348113">{{
+                <a href="tel:+17868456001">{{
                   footerData.footerAboutWidget.telephone
                 }}</a>
-                <a href="mailto:office@epris.group">{{
+                <a href="mailto:info@epris-group.com">{{
                   footerData.footerAboutWidget.email
                 }}</a>
               </div>
@@ -76,8 +76,7 @@
               <ul>
                 <li v-for="(nav, index) in footerData.navListFour" :key="index">
                   <nuxt-link
-                    :to="getPdfLink(nav.navTitle, nav.navUrl)"
-                    :target="isPdf(nav.navTitle) ? '_blank' : '_self'"
+                    :to="nav.navUrl"
                   >
                     {{ nav.navTitle }}
                   </nuxt-link>
@@ -106,17 +105,6 @@ export default {
       footerData,
       currentYear: ref(new Date().getFullYear()),
     };
-  },
-  methods: {
-    getPdfLink(title, navUrl) {
-      if (title === "Terms and Conditions") {
-        return "/pdf/AllgemeineGeschäftsbedingungenEPRIS09092024.pdf";
-      }
-      return navUrl;
-    },
-    isPdf(title) {
-      return title === "Terms and Conditions";
-    },
   },
   mounted() {
     this.currentYear = new Date().getFullYear();

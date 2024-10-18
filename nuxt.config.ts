@@ -28,7 +28,7 @@ export default defineNuxtConfig({
           content:
             "energy, efficiency, sustainability, economic, green energy, EPRIS",
         },
-        { name: "author", content: "EPRIS GmbH" },
+        { name: "author", content: "EPRIS Group LLC" },
         { name: "robots", content: "index, follow" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
 
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
             "Energy-efficient and sustainable solutions for a better future.",
         },
         { property: "og:image", content: "/images/logo/epris_group_logo.jpeg" },
-        { property: "og:url", content: "https://www.epris.group" },
+        { property: "og:url", content: "https://www.epris-group.com" },
         { property: "og:type", content: "website" },
         { property: "og:locale", content: "en_US" },
 
@@ -66,7 +66,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
-        { rel: "canonical", href: "https://www.epris.group" },
+        { rel: "canonical", href: "https://www.epris-group.com" },
       ],
       script: [
         {
@@ -74,9 +74,9 @@ export default defineNuxtConfig({
           children: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "EPRIS GmbH",
-            url: "https://www.epris.group",
-            logo: "https://www.epris.group/images/logo/beige-logo.png",
+            name: "EPRIS Group LLC",
+            url: "https://www.epris-group.com",
+            logo: "https://www.epris-group.com/images/logo/beige-logo.png",
             sameAs: ["https://www.linkedin.com/company/epris-group"],
           }),
         },

@@ -25,7 +25,7 @@
             <div class="info">
               <h4 class="title">Feel free to call us:</h4>
               <span class="info-text"
-                ><a href="tel:+436765348113">+43 676 53 48 113</a></span
+                ><a href="tel:+17868456001">+17868456001</a></span
               >
             </div>
           </div>
@@ -44,7 +44,7 @@
             <div class="info">
               <h4 class="title">Send your message to:</h4>
               <span class="info-text">
-                <a href="mailto:office@epris.group">office@epris.group</a>
+                <a href="mailto:info@epris-group.com">info@epris-group.com</a>
               </span>
             </div>
           </div>

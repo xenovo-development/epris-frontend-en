@@ -8,7 +8,7 @@
       title="Imprint"
       backgroundUrl="/images/bg/e.png"
     />
-    <Imprint />
+    <Terms />
     <TheFooter />
   </div>
 </template>

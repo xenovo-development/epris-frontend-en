@@ -1,8 +1,8 @@
 {
   "footerAboutWidget": {
     "logoSrc": "/images/logo/beige-logo.png",
-    "telephone": "+43 676 53 48 113",
-    "email": "office@epris.group",
+    "telephone": "+17868456001",
+    "email": "info@epris-group.com",
     "linkedinUrl": "https://www.linkedin.com/company/epris-group"
   },
   "footerLinkTitleOne": "Pages",
@@ -50,16 +50,12 @@
   "footerLinkTitleFour": "Legal Information",
   "navListFour": [
     {
-      "navTitle": "Imprint",
-      "navUrl": "/imprint"
-    },
-    {
       "navTitle": "Privacy Policy",
       "navUrl": "/privacy-policy"
     },
     {
       "navTitle": "Terms and Conditions",
-      "navUrl": "/"
+      "navUrl": "/terms-and-conditions"
     },
     {
       "navTitle": "Contact",

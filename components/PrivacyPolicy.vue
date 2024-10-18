@@ -10,21 +10,21 @@
         <div class="impressum p-4">
           <div class="impressum-info">
             <h6>Privacy Policy</h6>
-            <h6>As of: 09.09.2024</h6>
+
             <h6 class="mt-4">1. Responsible Entity</h6>
-            <p>Epris GmbH</p>
-            <p>Leonhardgasse 11/R01</p>
-            <p>1030 Vienna</p>
-            <p>office@epris.group</p>
-            <p>+43 676 53 48 113</p>
+            <p>Epris Group LLC</p>
+            <p>3833 Powerline Road Fort Lauderdale,</p>
+            <p>FL 33309, USA</p>
+            <p>info@epris-group.com</p>
+            <p>+17868456001</p>
             <h6 class="mt-4">2. Collection and Processing of Personal Data</h6>
             <p>
-              We, Epris GmbH, collect, process, and use your personal data only
-              with your consent or if another legal basis in accordance with the
-              GDPR applies. This is done in compliance with data protection and
-              civil law provisions. Only personal data necessary for the
-              execution and processing of our consulting services or data you
-              have voluntarily provided to us is collected.
+              We, Epris Group LLC, collect, process, and use your personal data
+              only with your consent or if another legal basis in accordance
+              with the GDPR applies. This is done in compliance with data
+              protection and civil law provisions. Only personal data necessary
+              for the execution and processing of our consulting services or
+              data you have voluntarily provided to us is collected.
             </p>
             <h6 class="mt-4">3. Your Rights</h6>
             <p>
@@ -106,7 +106,7 @@
               possibly the company name for the purpose of sending the
               newsletter. You can revoke consent to receive the newsletter at
               any time via the link contained in the newsletter or by emailing
-              office@epris.group.
+              info@epris-group.com.
             </p>
 
             <h6 class="mt-4">13. Our Contact Details</h6>
@@ -115,15 +115,12 @@
               contact us at any time for questions or to withdraw your consent
               using the contact details below.
             </p>
-            <p>Epris GmbH</p>
-            <p>Leonhardgasse 11/R01</p>
-            <p>1030 Vienna</p>
-            <p>office@epris.group</p>
-            <p>+43 676 53 48 113</p>
+            <p>Epris Group LLC</p>
+            <p>3833 Powerline Road Fort Lauderdale,</p>
+            <p>FL 33309, USA</p>
+            <p>info@epris-group.com</p>
+            <p>+17868456001</p>
           </div>
-          <button @click="uploadPdf" class="btn btn-primary mt-4">
-            Download as PDF
-          </button>
         </div>
       </div>
 
@@ -141,14 +138,6 @@ export default {
   components: {
     SectionTitle: () => import("@/components/SectionTitle"),
     ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
-  },
-  methods: {
-    uploadPdf() {
-      const link = document.createElement("a");
-      link.href = "/pdf/EprisGmbHPrivacyPolicyAsOf09092024.pdf";
-      link.download = "EprisGmbHPrivacyPolicyAsOf09092024.pdf";
-      link.click();
-    },
   },
 };
 </script>
