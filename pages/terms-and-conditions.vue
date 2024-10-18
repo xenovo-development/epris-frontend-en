@@ -4,8 +4,8 @@
     <OffCanvasMobileMenu />
     <SearchPopup />
     <BreadcrumbOne
-      activePageName="Imprint"
-      title="Imprint"
+      activePageName="Terms and Conditions"
+      title="Terms and Conditions"
       backgroundUrl="/images/bg/e.png"
     />
     <Terms />
