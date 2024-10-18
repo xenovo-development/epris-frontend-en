@@ -74,10 +74,6 @@
               Business consulting including business organization (§ 94 Z 74
               GewO). Registered office: Vienna
             </p>
-            <p>
-              Managing Director: Mag. Sandra Prinz (sole authorized
-              representative)
-            </p>
           </div>
         </div>
       </div>

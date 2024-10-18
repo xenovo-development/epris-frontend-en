@@ -35,14 +35,7 @@
           >
             <div class="about-image js-tilt">
               <img
-                src="/images/about/agency_about_2.png"
-                alt="about image"
-                loading="lazy"
-              />
-            </div>
-            <div class="about-image js-tilt">
-              <img
-                src="/images/about/agency_about_1.jpg"
+                src="/images/about/b.png"
                 alt="about image"
                 loading="lazy"
               />
@@ -55,7 +48,7 @@
           </div>
         </div>
         <div
-          class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mt-30"
+          class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mt-0"
         >
           <div
             class="col mt-30"

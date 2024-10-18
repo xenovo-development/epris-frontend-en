@@ -109,13 +109,13 @@ export default {
   },
   methods: {
     getPdfLink(title, navUrl) {
-      if (title === "AGB") {
+      if (title === "Terms and Conditions") {
         return "/pdf/AllgemeineGeschäftsbedingungenEPRIS09092024.pdf";
       }
       return navUrl;
     },
     isPdf(title) {
-      return title === "AGB";
+      return title === "Terms and Conditions";
     },
   },
   mounted() {

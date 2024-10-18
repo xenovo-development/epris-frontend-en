@@ -58,11 +58,11 @@ export default {
       referencesData: [
         {
           id: 1,
-          text: '"Ms. Prinz played a key role in our energy supply tender project for the combined heat and power plant of St. Martins Therme. Her comprehensive expertise in strategic and operational energy procurement, along with her negotiation skills, were crucial to the success.',
+          text: '"Epris played a key role in the energy supply tender project for the combined heat and power plant of St. Martins Therme. Their comprehensive expertise in strategic and operational energy procurement, along with strong negotiation skills, were critical to the project’s success.',
           texttwo:
-            "She led the tender process from supplier selection to final negotiations and contract preparation. Thanks to her detailed price comparisons and well-founded recommendations, we were able to make cost-effective decisions.",
+            "Epris managed the entire tender process, from supplier selection to final negotiations and contract preparation. Through detailed price comparisons and well-founded recommendations, they enabled cost-effective decision-making.",
           textthree:
-            'By closely collaborating with management, Ms. Prinz ensured that the energy supply was tailored to the needs of the spa. Her ability to optimally integrate technical and economic requirements made our energy supply efficient and future-proof."',
+            'By closely collaborating with management, Epris ensured that the energy supply was tailored to the needs of the spa. Their ability to seamlessly integrate technical and economic requirements made our energy supply efficient and future-proof."',
           imgSrc: "/images/references/martins.jpg",
           imgLink: "https://www.stmartins.at/en",
           imgSrcLogo: "/images/references/martins-logo.png",
@@ -72,13 +72,13 @@ export default {
         },
         {
           id: 2,
-          text: '"Ms. Prinz has done outstanding work in our project to optimize the energy supply of Therme Wien. With her comprehensive approach, she analyzed our energy sources – from the photovoltaic system to energy supply contracts – and designed tailored and innovative measures to reduce costs through spot price models.',
+          text: '"Epris has done outstanding work in our project to optimize the energy supply for Therme Wien. With their comprehensive approach, they analyzed our energy sources – from the photovoltaic system to energy supply contracts – and developed tailored, innovative measures to reduce costs through spot price models.',
           texttwo:
-            "Her profound market knowledge and ability to develop cost-efficient strategies were of great benefit to us. The introduction of flexible procurement models and contract optimizations made our energy supply more efficient and economical.",
+            "Their profound market knowledge and ability to develop cost-efficient strategies were of great benefit to us. The introduction of flexible procurement models and contract optimizations made our energy supply more efficient and economical",
           textthree:
-            "Thanks to her support, we were able not only to reduce costs but also to advance our sustainability goals. Ms. Prinz has a remarkable ability to translate complex energy market topics into practical and economically sound concepts.",
+            "Thanks to Epris' support, we were able not only to reduce costs but also to advance our sustainability goals. Their remarkable ability to translate complex energy market topics into practical and economically sound concepts was invaluable.",
           textfour:
-            'I highly recommend EPRIS and Sandra Prinz for companies seeking strategic vision and practical implementation in energy management."',
+            'I highly recommend Epris for companies seeking strategic vision and practical implementation in energy management."',
           imgSrc: "/images/references/therme2.jpg",
           imgLink: "https://www.thermewien.at/",
           imgSrcLogo: "/images/references/therme-logo.jpg",
@@ -88,11 +88,11 @@ export default {
         },
         {
           id: 3,
-          text: '"As part of our "Living Sustainability" project, Ms. Prinz, as an external project manager at VAMED Vitality World, delivered outstanding work. With her expertise in integrated energy management, she led a six-person team and significantly contributed to embedding sustainability in our resorts.',
+          text: '"As part of our "Living Sustainability" project, Epris, serving as an external project manager for VAMED Vitality World, delivered outstanding work. With their expertise in integrated energy management, they led a six-person team and made significant contributions to embedding sustainability across our resorts.',
           texttwo:
-            "Under her leadership, a comprehensive climate roadmap was developed, providing our facilities with a viable path to achieving the 2030 climate goals. Ms. Prinz placed particular emphasis on data quality, energy efficiency, and economic viability – aspects that are crucial for the energy consumption of our thermal and health resorts.",
+            "Under Epris leadership, a comprehensive climate roadmap was developed, providing our facilities with a viable path to achieve the 2030 climate goals. They placed particular emphasis on data quality, energy efficiency, and economic viability – all crucial aspects for managing the energy consumption of our thermal and health resorts.",
           textthree:
-            'Her ability to implement concepts that are both economically and ecologically sensible strengthens VAMED Vitality World’s position as a leading provider in wellness and sustainability. I fully recommend EPRIS and Sandra Prinz for projects that require in-depth expertise, strategic thinking, and operational excellence in integrated energy management."',
+            'Epris ability to implement solutions that are both economically and ecologically sound strengthens VAMED Vitality World’s position as a leading provider in wellness and sustainability. I fully recommend Epris for projects that demand in-depth expertise, strategic thinking, and operational excellence in integrated energy management."',
           imgSrc: "/images/references/vamed.png",
           imgLink: "https://www.vitality-world.com/de",
           imgSrcLogo: "/images/references/vamed-logo.png",
